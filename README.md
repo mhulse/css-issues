@@ -133,28 +133,18 @@ Centering absolutely:
 }
 ```
 
-Source order, primary column/content first:
+Source order, primary column/content first (h/t [pmob](http://www.pmob.co.uk/temp/2colum_sourceorder_r.htm)):
 
 ```css
 /*
-http://www.pmob.co.uk/temp/2colum_sourceorder_r.htm
-
 <div class="group">
-	<div>
-		<p>Primary content</p>
-	</div>
-	<div>
-		<p>Secondary content</p>
-	</div>
-</div> <!-- /.group -->
+	<div><p>Primary content</p></div>
+	<div><p>Secondary content</p></div>
+</div>
 
 <div class="group group-right">
-	<div>
-		<p>Primary content</p>
-	</div>
-	<div>
-		<p>Secondary content</p>
-	</div>
+	<div><p>Primary content</p></div>
+	<div><p>Secondary content</p></div>
 </div>
 */
 
