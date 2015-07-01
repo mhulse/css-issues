@@ -24,7 +24,19 @@ Better box model:
 }
 ```
 
+Clearing floats:
+
+```css
+.clear::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+```
+
 ## Logos and flags
+
+SEO-freindly logo image:
 
 ```css
 /*
@@ -54,17 +66,6 @@ Better box model:
 }
 .logo a:active,
 .logo a:focus { outline: none; }
-```
-
-
-Clearing floats:
-
-```css
-.clear::after {
-	content: "";
-	display: table;
-	clear: both;
-}
 ```
 
 ## Layout
