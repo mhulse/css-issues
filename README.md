@@ -1,4 +1,4 @@
-# CSS FTW!
+# CSS awesomeness!
 
 CSS tidbits I’ve found useful over the years.
 
