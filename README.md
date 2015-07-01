@@ -132,3 +132,53 @@ Centering absolutely:
 	        transform: translate(-50%, -50%);
 }
 ```
+
+Source order, primary column/content first:
+
+```css
+/*
+http://www.pmob.co.uk/temp/2colum_sourceorder_r.htm
+
+<div class="group">
+	<div>
+		<p>Primary content</p>
+	</div>
+	<div>
+		<p>Secondary content</p>
+	</div>
+</div> <!-- /.group -->
+
+<div class="group group-right">
+	<div>
+		<p>Primary content</p>
+	</div>
+	<div>
+		<p>Secondary content</p>
+	</div>
+</div>
+*/
+
+.group::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.group { margin: 0 0 0 280px; }
+.group > div:first-child {
+	border: 1px solid red;
+	width: 100%;
+	float: right;
+}
+.group > div:last-child {
+	border: 1px solid red;
+	width: 280px;
+	margin: 0 0 0 -280px;
+	float: left;
+}
+.group.group-right { margin: 0 280px 0 0; }
+.group.group-right > div:first-child { float: left; }
+.group.group-right > div:last-child {
+	margin: 0 -280px 0 0;
+	float: right;
+}
+```
