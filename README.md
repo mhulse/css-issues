@@ -1,6 +1,42 @@
-# CSS Tidbits
+# CSS FTW!
 
 CSS tidbits I’ve found useful over the years.
+
+## Headings
+
+Don’t display the title if none given (semantically “untitled”, h/t [camen design](http://camendesign.com/)):
+
+```css
+h1:empty { display: none; }
+```
+
+## Utility
+
+Better box model:
+
+```css
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+```
+
+Clearing floats:
+
+```css
+.clear::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+```
+
+## Layout
+
+Something on left, something on right, fluid:
 
 ```css
 /*
