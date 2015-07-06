@@ -19,7 +19,7 @@ body { min-height: 100%; }
 
 ## Links
 
-```
+```css
 a,
 a:visited {
 	color: red;
