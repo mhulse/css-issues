@@ -17,6 +17,24 @@ html {
 body { min-height: 100%; }
 ```
 
+## Links
+
+```
+a,
+a:visited {
+	color: red;
+	text-decoration: none;
+}
+a:visited:hover,
+a:focus,
+a:focus:hover,
+a:hover,
+a:active {
+	color: blue;
+	text-decoration: underline;
+}
+```
+
 ## Headings
 
 Don’t display the title if none given (semantically “untitled”, h/t [camen design](http://camendesign.com/)):
