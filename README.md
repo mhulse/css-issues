@@ -1,6 +1,21 @@
-# CSS awesomeness!
+# CSS awesomeness?
 
 CSS tidbits I’ve found useful over the years.
+
+## Root and body
+
+Full page `body` and `html`:
+
+```css
+html,
+body { overflow-x: hidden; }
+html {
+	height: 100%;
+	overflow-y: scroll;
+	position: relative;
+}
+body { min-height: 100%; }
+```
 
 ## Headings
 
