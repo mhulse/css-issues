@@ -4,7 +4,7 @@ CSS tidbits I’ve found useful over the years.
 
 ## Colors
 
-Colors useful for callouts and/or standard UI bits:
+Useful colors for callouts and/or standard UI bits:
 
 ```scss
 $chili: #ffbaba;
@@ -12,6 +12,8 @@ $duck: #feefb3;
 $frog: #dff2bf;
 $ice: #bde5f8;
 ```
+
+Use SCSS `darken($chili, 40%)` (or similar) for darker variations of the above colors.
 
 ## Fonts
 
