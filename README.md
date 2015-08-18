@@ -2,6 +2,27 @@
 
 CSS tidbits I’ve found useful over the years.
 
+## Colors
+
+Colors useful for callouts and/or standard UI bits:
+
+```scss
+$chili: #ffbaba;
+$duck: #feefb3;
+$frog: #dff2bf;
+$ice: #bde5f8;
+```
+
+## Fonts
+
+Basic font stacks:
+
+```
+$sans: Arial, sans-serif;
+$serif: Cambria, Georgia, serif;
+$mono: monospace, serif; //Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
+```
+
 ## Root and body
 
 Full page `body` and `html`:
@@ -41,6 +62,28 @@ Don’t display the title if none given (semantically “untitled”, h/t [camen
 
 ```css
 h1:empty { display: none; }
+```
+
+## Typography
+
+Multi-line padded text:
+
+```css
+/*
+<span><span>Some text</span></span>
+*/
+
+span {
+	padding: 10px;
+	display: inline; /* If not already. */
+	background: rgba(255, 255, 255, .9);
+	-webkit-box-decoration-break: clone;
+	   -moz-box-decoration-break: clone;
+	    -ms-box-decoration-break: clone;
+	     -o-box-decoration-break: clone;
+	        box-decoration-break: clone;
+}
+span > span { position: relative; } /* Prevents background overlap on wrapped lines. */
 ```
 
 ## Utility
