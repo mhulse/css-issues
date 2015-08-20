@@ -114,6 +114,135 @@ Clearing floats:
 }
 ```
 
+Older version:
+
+```scss
+.fix {
+	
+	*zoom: 1;
+	
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+	
+	&:after { clear: both; }
+	
+}
+```
+
+Remove completely, non-SEO or accessible-friendly:
+
+```css
+.gone {
+	display: none !important;
+	visibility: hidden;
+}
+```
+
+Hide, but retain SEO and accessible friendliness:
+
+```css
+.off {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+```
+
+Hid visually, but retain space:
+
+```css
+.ghost { visibility: hidden; }
+```
+
+Remove link outline:
+
+```scss
+.nix {
+	
+	&,
+	&:focus,
+	&:hover,
+	&:active {
+		color: rgba(#000, 0);
+		text-decoration: none;
+		outline: 0;
+		border: 0;
+	}
+	
+}
+```
+
+Fix margin collapse:
+
+```scss
+.force {
+	margin: {
+		top: -1px;
+		bottom: -1px;
+	}
+	padding: 1px 0;
+}
+```
+
+Don’t allow words to break out of containers:
+
+```scss
+.nono {
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	// -ms-word-break: break-all;
+	// 	word-break: break-all;
+	// 	word-break: break-word;
+}
+```
+
+Disable responsive images:
+
+```css
+.none { max-width: none; }
+```
+
+Simple solution for responsive thingys (like `<table>`s):
+
+```scss
+// @see http://www.maxdesign.com.au/2013/03/22/simple-responsive-table/
+// @see http://creativeandcode.com/simple-solution-for-responsive-tables/
+// @see http://stackoverflow.com/a/10122689/922323
+
+/*
+<div class="scroll"><img ...></div>
+<div class="scroll"><table></table></div>
+*/
+
+.scroll {
+	
+	width: 100%;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	
+	img:first-of-type {
+		max-width: none;
+		//display: block;
+	}
+	
+	> *,
+	img:first-of-type {
+		margin-top: 0;
+		margin-bottom: 0;
+		-webkit-transform: translateZ(0);
+	}
+	
+}
+```
+
 ## Media
 
 Responsive media elements that retain aspect ratio:
