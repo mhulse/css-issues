@@ -247,7 +247,7 @@ Simple solution for responsive thingys (like `<table>`s):
 
 Responsive media elements that retain aspect ratio:
 
-```
+```scss
 /*
 <div class="mm">
 	<video ...></video>
