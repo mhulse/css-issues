@@ -423,3 +423,45 @@ Source order, primary column/content first (h/t [pmob](http://www.pmob.co.uk/tem
 	float: right;
 }
 ```
+
+Text on left, middle and right, same line:
+
+```css
+/*
+<div class="split">
+	<div>left</div>
+	<div>middle</div>
+	<div>right</div>
+</div>
+*/
+
+.split::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.split {
+	position: relative;
+	border: 1px solid red;
+}
+	.split > div {
+		text-align: center;
+		width: 100%;
+		position: absolute;
+		z-index: 1;
+	}
+	.split > div:first-child,
+	.split > div:last-child {
+		width: auto;
+		position: relative;
+		z-index: 2;
+	}
+	.split > div:first-child {
+		text-align: left;
+		float: left;
+	}
+	.split > div:last-child {
+		text-align: right;
+		float: right;
+	}
+```
