@@ -1,6 +1,6 @@
 # CSS Bullets! 🔫
 
-A copy and paste selection of useful CSS (and some SCSS) code snippets (a.k.a “bullets”); useful when quick, drop-in, solutions are needed.
+A copy and paste selection of handy CSS (and some SCSS) code snippets (a.k.a “bullets”); useful for when quick, drop-in, solutions are needed.
 
 ## Colors
 
@@ -484,4 +484,24 @@ Text on left, middle and right, same line:
 		text-align: right;
 		float: right;
 	}
+```
+
+## Other
+
+Horizontal rules:
+
+```css
+hr,
+.hr {
+	border: 0;
+	border-top: 1px solid #999;
+	height: 0;
+	margin: 15px 0 20px;
+	padding: 0;
+	-webkit-box-sizing: content-box;
+	   -moz-box-sizing: content-box;
+	    -ms-box-sizing: content-box;
+	     -o-box-sizing: content-box;
+	        box-sizing: content-box;
+}
 ```
