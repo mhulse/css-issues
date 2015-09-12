@@ -1,6 +1,6 @@
 # CSS Bullets! 🔫
 
-CSS tidbits I’ve found useful over the years.
+A copy and paste selection of useful CSS (and some SCSS) code snippets (a.k.a “bullets”); useful when quick, drop-in, solutions are needed.
 
 ## Colors
 
@@ -27,18 +27,16 @@ $mono: monospace, serif; //Consolas, Menlo, Monaco, "Lucida Console", "Liberatio
 
 ## Root and body
 
-```css
-/**
- * Full page `body` and `html`.
- */
+Full page `body` and `html`:
 
+```css
 html { height: 100%; }
 body { min-height: 100%; }
+```
 
-/**
- * Overflow and scroll (useful for mobile web apps).
- */
+Overflow and scroll (useful for mobile web apps):
 
+```css
 html,
 body { overflow-x: hidden; }
 html { overflow-y: scroll; }
