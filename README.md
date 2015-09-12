@@ -19,7 +19,7 @@ Use SCSS `darken($chili, 40%)` (or similar) for darker variations of the above c
 
 Basic font stacks:
 
-```
+```scss
 $sans: Arial, sans-serif;
 $serif: Cambria, Georgia, serif;
 $mono: monospace, serif; //Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
@@ -101,6 +101,24 @@ Better box model:
 	    -ms-box-sizing: border-box;
 	     -o-box-sizing: border-box;
 	        box-sizing: border-box;
+}
+```
+
+SCSS version:
+
+```scss
+* {
+	
+	&,
+	&::before,
+	&::after {
+		    -webkit-box-sizing: border-box;
+		       -moz-box-sizing: border-box;
+		        -ms-box-sizing: border-box;
+		         -o-box-sizing: border-box;
+		            box-sizing: border-box;
+	}
+	
 }
 ```
 
