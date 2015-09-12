@@ -27,17 +27,21 @@ $mono: monospace, serif; //Consolas, Menlo, Monaco, "Lucida Console", "Liberatio
 
 ## Root and body
 
-Full page `body` and `html`:
-
 ```css
+/**
+ * Full page `body` and `html`.
+ */
+
+html { height: 100%; }
+body { min-height: 100%; }
+
+/**
+ * Overflow and scroll (useful for mobile web apps).
+ */
+
 html,
 body { overflow-x: hidden; }
-html {
-	height: 100%;
-	overflow-y: scroll;
-	position: relative;
-}
-body { min-height: 100%; }
+html { overflow-y: scroll; }
 ```
 
 ## Links
