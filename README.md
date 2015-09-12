@@ -99,6 +99,7 @@ Better box model:
 *::before,
 *::after {
 	-webkit-box-sizing: border-box;
+	 -khtml-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
 	    -ms-box-sizing: border-box;
 	     -o-box-sizing: border-box;
