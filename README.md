@@ -1,4 +1,4 @@
-# CSS awesomeness?
+# CSS Bullets! 🔫
 
 CSS tidbits I’ve found useful over the years.
 
