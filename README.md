@@ -268,7 +268,7 @@ Simple solution for responsive thingys (like `<table>`s):
 
 Responsive media elements that retain aspect ratio:
 
-```scss
+```css
 /*
 <div class="mm">
 	<video ...></video>
@@ -277,6 +277,32 @@ Responsive media elements that retain aspect ratio:
 <div class="mm tv"><iframe ...></iframe></div>
 */
 
+.mm {
+	height: 0;
+	padding-bottom: 56.25%; /* 16:9 = (9 / 16 = .5625) x 100 */
+	position: relative;
+	overflow: hidden;
+}
+.mm iframe,
+.mm object,
+.mm embed,
+.mm video {
+	border: 0;
+	width: 100% !important;
+	height: 100% !important;
+	max-width: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.mm.theatre { padding-bottom: 59.171597633136%; } /* 1.69:1 = (1 / 1.69 = .59171597633136) x 100 */
+.mm.slide { padding-bottom: 66.666666666667%; } /* 3:2 = (2 / 3 = .66666666666667) x 100 */
+.mm.tv { padding-bottom: 75%; } /* 4:3 = (3 / 4 = .75) x 100 */
+```
+
+SCSS version:
+
+```scss
 .mm {
 	
 	height: 0;
