@@ -393,6 +393,15 @@ Something on left, something on right, fluid:
 .bunch > :last-child > :last-child { margin-bottom: 0; }
 ```
 
+… for a responsive version of the above, change the `overflow` on `:last-child` to `visible` and add a media query (at desired breakpoint) to handle the “columnization” of the elements:
+
+```css
+.bunch > :last-child { overflow: visible; }
+@media all and (min-width: 768px) {
+	.bunch > :last-child { overflow: auto; }
+}
+```
+
 Centering absolutely:
 
 ```css
