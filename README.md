@@ -1,19 +1,17 @@
 # CSS Bullets! 🔫
 
-A copy and paste selection of handy CSS (and some SCSS) code snippets (a.k.a “bullets”); useful for when quick, drop-in, solutions are needed.
+A copy and paste selection of handy CSS code snippets. Useful for when quick, drop-in, solutions are needed.
 
-## Colors
+## Semantic/contextual colors
 
-Useful colors for callouts and/or standard UI bits:
+### Bootstrap 3
 
-```scss
-$chili: #ffbaba;
-$duck: #feefb3;
-$frog: #dff2bf;
-$ice: #bde5f8;
-```
-
-Use SCSS `darken($chili, 40%)` (or similar) for darker variations of the above colors.
+Name | Example | Base | Background | Border
+:-:  | :-:     | :-:  | :-:        | :-:
+Alert Success | ![](colors/bootstrap-3-alert-success.svg) | `#3c763d` | `#dff0d8` | `#d6e9c6`
+Alert Info | ![](colors/bootstrap-3-alert-info.svg) | `#31708f` | `#d9edf7` | `#bce8f1`
+Alert Warning | ![](colors/bootstrap-3-alert-warning.svg) | `#8a6d3b` | `#fcf8e3` | `#faebcc`
+Alert Danger | ![](colors/bootstrap-3-alert-danger.svg) | `#a94442` | `#f2dede` | `#ebccd1`
 
 ## Fonts
 
