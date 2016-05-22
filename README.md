@@ -667,3 +667,16 @@ Using custom attribute:
 }
 ```
 
+### Multi-line padded text
+
+```css
+/* <span><span>Some text</span></span> */
+.padded {
+	color: #000;
+	padding: 10px;
+	display: inline; /* If not already. */
+	background: rgba(255, 255, 255, .9);
+	box-decoration-break: clone;
+}
+.padded > span { position: relative; } /* Prevents background overlap on wrapped lines. */
+```
