@@ -19,12 +19,6 @@ Alert Danger | ![](https://cdn.rawgit.com/mhulse/css-bullets/master/colors/boots
 * **Serif:** `Cambria, Georgia, serif`
 * **Monospace:** `monospace, serif`, `Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif`
 
-```scss
-$sans: 
-$serif: ;
-$mono: ;
-```
-
 ## Root and body
 
 Full page `body` and `html`:
@@ -483,9 +477,22 @@ Text on left, middle and right, same line:
 	}
 ```
 
-## Other
+### Aliased images
 
-Horizontal rules:
+```css
+[pixelated] {
+    image-rendering:optimizeSpeed;             /* Legal fallback */
+    image-rendering:-moz-crisp-edges;          /* Firefox        */
+    image-rendering:-o-crisp-edges;            /* Opera          */
+    image-rendering:-webkit-optimize-contrast; /* Safari         */
+    image-rendering:optimize-contrast;         /* CSS3 Proposed  */
+    image-rendering:crisp-edges;               /* CSS4 Proposed  */
+    image-rendering:pixelated;                 /* CSS4 Proposed  */
+    -ms-interpolation-mode:nearest-neighbor;   /* IE8+           */
+}
+```
+
+### Horizontal rules:
 
 ```css
 hr,
