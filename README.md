@@ -635,3 +635,35 @@ Disable completely:
 ```
 
 But probably best to do it on an as-needed basis.
+
+### Font icons
+
+Using FontAwesome:
+
+```css
+a::before {
+	font-family: FontAwesome;
+	line-height: 0;
+	position: relative;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	/*display: inline-block;*/
+	content: "\f177\00a0";
+}
+```
+
+Using custom attribute:
+
+```css
+/* http://css-tricks.com/examples/IconFont/ */
+[data-icon]:before {
+	font-family: FontAwesome;
+	font-size: inherit;
+	font-style: normal;
+	font-weight: normal;
+	content: attr(data-icon);
+	speak: none;
+}
+```
+
