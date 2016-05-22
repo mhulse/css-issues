@@ -13,14 +13,16 @@ Alert Info | ![](https://cdn.rawgit.com/mhulse/css-bullets/master/colors/bootstr
 Alert Warning | ![](https://cdn.rawgit.com/mhulse/css-bullets/master/colors/bootstrap-3-alert-warning.svg) | `#8a6d3b` | `#fcf8e3` | `#faebcc`
 Alert Danger | ![](https://cdn.rawgit.com/mhulse/css-bullets/master/colors/bootstrap-3-alert-danger.svg) | `#a94442` | `#f2dede` | `#ebccd1`
 
-## Fonts
+## Font stacks
 
-Basic font stacks:
+* **Sans-serif:** `Arial, sans-serif`
+* **Serif:** `Cambria, Georgia, serif`
+* **Monospace:** `monospace, serif`, `Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif`
 
 ```scss
-$sans: Arial, sans-serif;
-$serif: Cambria, Georgia, serif;
-$mono: monospace, serif; //Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
+$sans: 
+$serif: ;
+$mono: ;
 ```
 
 ## Root and body
@@ -105,24 +107,6 @@ Better box model:
 }
 ```
 
-SCSS version:
-
-```scss
-* {
-	
-	&,
-	&::before,
-	&::after {
-		    -webkit-box-sizing: border-box;
-		       -moz-box-sizing: border-box;
-		        -ms-box-sizing: border-box;
-		         -o-box-sizing: border-box;
-		            box-sizing: border-box;
-	}
-	
-}
-```
-
 Clearing floats:
 
 ```css
@@ -135,20 +119,14 @@ Clearing floats:
 
 Older version:
 
-```scss
-.fix {
-	
-	*zoom: 1;
-	
-	&:before,
-	&:after {
-		content: " ";
-		display: table;
-	}
-	
-	&:after { clear: both; }
-	
+```css
+.fix { *zoom: 1; }
+.fix::before,
+.fix::after {
+	content: " ";
+	display: table;
 }
+.fix::after { clear: both; }
 ```
 
 Remove completely, non-SEO or accessible-friendly:
@@ -183,43 +161,39 @@ Hid visually, but retain space:
 
 Remove link outline:
 
-```scss
-.nix {
-	
-	&,
-	&:focus,
-	&:hover,
-	&:active {
-		color: rgba(#000, 0);
-		text-decoration: none;
-		outline: 0;
-		border: 0;
-	}
-	
+```css
+.nix,
+.nix:focus,
+.nix:hover,
+.nix:active {
+	color: rgba(0, 0, 0, 0);
+	text-decoration: none;
+	outline: 0;
+	border: 0;
 }
 ```
 
 Fix margin collapse:
 
-```scss
+```css
 .force {
-	margin: {
-		top: -1px;
-		bottom: -1px;
-	}
+	margin-top: -1px;
+	margin-bottom: -1px;
 	padding: 1px 0;
 }
 ```
 
 Don’t allow words to break out of containers:
 
-```scss
+```css
 .nono {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
-	// -ms-word-break: break-all;
-	// 	word-break: break-all;
-	// 	word-break: break-word;
+	/*
+	-ms-word-break: break-all;
+	    word-break: break-all;
+	    word-break: break-word;
+	*/
 }
 ```
 
@@ -231,10 +205,12 @@ Disable responsive images:
 
 Simple solution for responsive thingys (like `<table>`s):
 
-```scss
-// @see http://www.maxdesign.com.au/2013/03/22/simple-responsive-table/
-// @see http://creativeandcode.com/simple-solution-for-responsive-tables/
-// @see http://stackoverflow.com/a/10122689/922323
+```css
+/*
+@see http://www.maxdesign.com.au/2013/03/22/simple-responsive-table/
+@see http://creativeandcode.com/simple-solution-for-responsive-tables/
+@see http://stackoverflow.com/a/10122689/922323
+*/
 
 /*
 <div class="scroll"><img ...></div>
@@ -242,23 +218,19 @@ Simple solution for responsive thingys (like `<table>`s):
 */
 
 .scroll {
-	
 	width: 100%;
 	overflow-y: auto;
 	-webkit-overflow-scrolling: touch;
-	
-	img:first-of-type {
-		max-width: none;
-		//display: block;
-	}
-	
-	> *,
-	img:first-of-type {
-		margin-top: 0;
-		margin-bottom: 0;
-		-webkit-transform: translateZ(0);
-	}
-	
+}
+.scroll img:first-of-type {
+	max-width: none;
+	/*display: block;*/
+}
+.scroll > *,
+.scroll img:first-of-type {
+	margin-top: 0;
+	margin-bottom: 0;
+	-webkit-transform: translateZ(0);
 }
 ```
 
@@ -298,38 +270,6 @@ Responsive media elements that retain aspect ratio:
 .mm.tv { padding-bottom: 75%; } /* 4:3 = (3 / 4 = .75) x 100 */
 ```
 
-SCSS version:
-
-```scss
-.mm {
-	
-	height: 0;
-	padding-bottom: 56.25%; // 16:9 = (9 / 16 = .5625) x 100
-	position: relative;
-	overflow: hidden;
-	
-	iframe,
-	object,
-	embed,
-	video {
-		border: 0;
-		width: 100% !important;
-		height: 100% !important;
-		max-width: none;
-		position: absolute;
-		top: 0;
-		left: 0;
-	}
-	
-	&.theatre { padding-bottom: 59.171597633136%; } // 1.69:1 = (1 / 1.69 = .59171597633136) x 100
-	
-	&.slide { padding-bottom: 66.666666666667%; } // 3:2 = (2 / 3 = .66666666666667) x 100
-	
-	&.tv { padding-bottom: 75%; } // 4:3 = (3 / 4 = .75) x 100
-	
-}
-```
-
 ## Logos and flags
 
 SEO-freindly logo image:
@@ -362,6 +302,29 @@ SEO-freindly logo image:
 }
 .logo a:active,
 .logo a:focus { outline: none; }
+```
+
+## Quotes
+
+Using [FontAwesome](http://fontawesome.io/):
+
+```css
+blockquote::before,
+blockquote::after {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6rem;
+    color: rgba(0, 0, 0, .1);
+    line-height: 1;
+    position: absolute;
+}
+blockquote::before {
+    top: -2.5rem; /*  Half `blockquote` vertical margin. */
+    left: -4rem; /* Same as the `blockquote` horizontal margin. */
+    content: "\f10d";
+}
+blockquote::after { content: "\f10e"; }
 ```
 
 ## Layout
