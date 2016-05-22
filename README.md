@@ -521,3 +521,94 @@ hr,
             filter: grayscale(100%);
 }
 ```
+
+### Buttons
+
+```css
+/**
+ * Simple button class.
+ *
+ * I wasn't able to normalize line-height of `<input type="buton">` in Firefox.
+ * Conclusion: Don't use `<input>` for buttons.
+ *
+ * @see https://github.com/yui/pure
+ */
+
+.button {
+    font-weight: normal;
+    text-align: center;
+    line-height: normal;
+    vertical-align: baseline;
+    display: block;
+    zoom: 1;
+    cursor: pointer;
+    letter-spacing: .08em;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    mix-blend-mode: multiply;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    border: none transparent;
+    box-shadow: none;
+    border-radius: .3rem;
+    padding: 1rem 2rem;
+    -webkit-tap-highlight-color: transparent;
+}
+.button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+.button,
+.button:visited {
+    color: #fff;
+    background-color: #0f0077;
+}
+.button:visited:hover,
+.button:focus,
+.button:focus:hover,
+.button:hover,
+.button:active {
+    text-decoration: none;
+    color: #fff;
+    box-shadow: none;
+    background: #d68100;
+}
+.button:hover,
+.button:focus {
+    background-image: linear-gradient(
+        transparent,
+        rgba(0, 0, 0, .05) 40%,
+        rgba(0, 0, 0, .1)
+    );
+}
+.button:focus { outline: 0; }
+.button:active {
+    box-shadow: 0 0 0 .2rem rgba(0, 0, 0, .15) inset,
+                0 0 1rem rgba(0, 0, 0, 0.25) inset;
+}
+.button[disabled],
+.button.button-disabled,
+.button.button-disabled:visited,
+.button.button-disabled:visited:hover,
+.button.button-disabled:focus,
+.button.button-disabled:focus:hover,
+.button.button-disabled:hover,
+.button.button-disabled:active {
+    border: none;
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    filter: alpha(opacity=40);
+    -khtml-opacity: .40;
+      -moz-opacity: .40;
+       -ms-opacity: .40;
+        -o-opacity: .40;
+           opacity: .40;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+.button.button-hidden { display: none; }
+```
+
