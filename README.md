@@ -623,3 +623,15 @@ Grayscale:
 .button.button-hidden { display: none; }
 ```
 
+### iOS callout on click
+
+Disable completely:
+
+```css
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+}
+```
+
+But probably best to do it on an as-needed basis.
