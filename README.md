@@ -191,12 +191,6 @@ Don’t allow words to break out of containers:
 }
 ```
 
-Disable responsive images:
-
-```css
-.none { max-width: none; }
-```
-
 Simple solution for responsive thingys (like `<table>`s):
 
 ```css
@@ -506,21 +500,6 @@ Calc columns:
 [elements="right"] > :last-child { margin-left: 1rem; }
 ```
 
-### Aliased images
-
-```css
-[pixelated] {
-    image-rendering:optimizeSpeed;             /* Legal fallback */
-    image-rendering:-moz-crisp-edges;          /* Firefox        */
-    image-rendering:-o-crisp-edges;            /* Opera          */
-    image-rendering:-webkit-optimize-contrast; /* Safari         */
-    image-rendering:optimize-contrast;         /* CSS3 Proposed  */
-    image-rendering:crisp-edges;               /* CSS4 Proposed  */
-    image-rendering:pixelated;                 /* CSS4 Proposed  */
-    -ms-interpolation-mode:nearest-neighbor;   /* IE8+           */
-}
-```
-
 ### Horizontal rules:
 
 ```css
@@ -756,4 +735,69 @@ Nice shadow for use with hero image text (h/t @patflannery):
 
 ```css
 .head { text-shadow: 0 0 0.1em #000, 0 0 0.025em #000, 0 0 0.025em #000; }
+```
+
+### Images
+
+Responsive images:
+
+```css
+img {
+	border: 0;
+	max-width: 100%;
+	height: auto;
+	vertical-align: top;
+}
+```
+
+Disable responsive images:
+
+```css
+.none { max-width: none; }
+```
+
+Utilities:
+
+```css
+a img {
+	border: 0;
+	outline: 0;
+}
+.imgc {
+	margin: 0 auto;
+	display: block;
+}
+.imgr {
+	float: right;
+	margin-left: 10px;
+}
+.imgl {
+	float: left;
+	margin-right: 10px;
+}
+.imgr,
+.imgl { margin-bottom: 10px; }
+@media screen and (max-width: 48em) {
+	.imgr,
+	.imgl {
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+}
+```
+
+Aliased images:
+
+```css
+[pixelated] {
+    image-rendering:optimizeSpeed;             /* Legal fallback */
+    image-rendering:-moz-crisp-edges;          /* Firefox        */
+    image-rendering:-o-crisp-edges;            /* Opera          */
+    image-rendering:-webkit-optimize-contrast; /* Safari         */
+    image-rendering:optimize-contrast;         /* CSS3 Proposed  */
+    image-rendering:crisp-edges;               /* CSS4 Proposed  */
+    image-rendering:pixelated;                 /* CSS4 Proposed  */
+    -ms-interpolation-mode:nearest-neighbor;   /* IE8+           */
+}
 ```
