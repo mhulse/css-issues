@@ -8,10 +8,10 @@ A copy and paste selection of handy CSS code snippets. Useful for when quick, dr
 
 Name | Example | Base | Background | Border
 :-:  | :-:     | :-:  | :-:        | :-:
-Alert Success | ![](/colors/bootstrap-3-alert-success.svg?raw=true) | `#3c763d` | `#dff0d8` | `#d6e9c6`
-Alert Info | ![](/colors/bootstrap-3-alert-info.svg?raw=true) | `#31708f` | `#d9edf7` | `#bce8f1`
-Alert Warning | ![](/colors/bootstrap-3-alert-warning.svg?raw=true) | `#8a6d3b` | `#fcf8e3` | `#faebcc`
-Alert Danger | ![](/colors/bootstrap-3-alert-danger.svg?raw=true) | `#a94442` | `#f2dede` | `#ebccd1`
+Alert Success | ![](https://cdn.rawgit.com/mhulse/css-bullets/master/colors/bootstrap-3-alert-success.svg) | `#3c763d` | `#dff0d8` | `#d6e9c6`
+Alert Info | ![](https://cdn.rawgit.com/mhulse/css-bullets/master/colors/bootstrap-3-alert-info.svg) | `#31708f` | `#d9edf7` | `#bce8f1`
+Alert Warning | ![](https://cdn.rawgit.com/mhulse/css-bullets/master/colors/bootstrap-3-alert-warning.svg) | `#8a6d3b` | `#fcf8e3` | `#faebcc`
+Alert Danger | ![](https://cdn.rawgit.com/mhulse/css-bullets/master/colors/bootstrap-3-alert-danger.svg) | `#a94442` | `#f2dede` | `#ebccd1`
 
 ## Fonts
 
