@@ -477,6 +477,35 @@ Text on left, middle and right, same line:
 	}
 ```
 
+Calc columns:
+
+```css
+/*
+<div elements="left">
+	<div>Will  be sidebar to left</div>
+	<div>...</div>
+</div>
+<div elements="right">
+	<div>Will  be sidebar to right</div>
+	<div>...</div>
+</div>
+*/
+
+[elements]::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+[elements] > * {
+	width: 27rem;
+	float: left;
+}
+[elements="left"] > :first-child { margin-right: 1rem; }
+[elements="left"] > :last-child { width: calc(100% - 28rem); }
+[elements="right"] > :first-child { width: calc(100% - 28rem); }
+[elements="right"] > :last-child { margin-left: 1rem; }
+```
+
 ### Aliased images
 
 ```css
@@ -692,5 +721,31 @@ Using custom attribute:
 ::selection {
     background: rgb(49, 112, 143, .55);
     text-shadow: none;
+}
+```
+
+### Hero stuff
+
+```css
+/*
+<div id="slides">
+	<div>...</div>
+</div>
+*/
+
+#slides { position: relative; }
+#slides > div {
+	background: linear-gradient(
+		to top,
+		rgba(40, 67, 76, 1) 0,
+		rgba(45, 76, 86, 0.5) 30%,
+		rgba(53, 90, 102, 0) 75%
+	);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
 }
 ```
