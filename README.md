@@ -726,6 +726,8 @@ Using custom attribute:
 
 ### Hero stuff
 
+Gradient overlay:
+
 ```css
 /*
 <div id="slides">
@@ -748,4 +750,10 @@ Using custom attribute:
 	left: 0;
 	z-index: 2;
 }
+```
+
+Nice shadow for use with hero image text (h/t @patflannery):
+
+```css
+.head { text-shadow: 0 0 0.1em #000, 0 0 0.025em #000, 0 0 0.025em #000; }
 ```
