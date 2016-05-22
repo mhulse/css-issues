@@ -801,3 +801,65 @@ Aliased images:
     -ms-interpolation-mode:nearest-neighbor;   /* IE8+           */
 }
 ```
+
+### Search box
+
+![](https://cloud.githubusercontent.com/assets/218624/13653138/c0f8ad6c-e604-11e5-9eca-06d2978cf320.png)
+
+```css
+/*
+<form role="search" method="get" action="http://www.google.com/search">
+	<input type="hidden" name="sitesearch" value="washington.edu">
+	<div class="input-group">
+		<label>
+			<span class="off">Search:</span>
+			<input type="search" name="q" placeholder="Search …" autocomplete="off">
+		</label>
+		<button type="submit"><i class="fa fa-search"></i></button>
+	</div>
+</form>
+*/
+
+.input-group {
+	position: relative;
+	background: #fff;
+	border-radius: .5rem;
+}
+.input-group input,
+.input-group button {
+	font-size: 1.6rem;
+	line-height: 2em;
+	height: 2em;
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none;
+	-webkit-background-clip: padding;
+	   -moz-background-clip: padding;
+	        background-clip: padding-box;
+	display: block;
+	background: transparent;
+	padding: 0;
+	border-radius: 0;
+	box-shadow: none;
+	border: 0 none;
+}
+.input-group input:focus,
+.input-group input:active { outline: 0; }
+.input-group input::-webkit-search-decoration,
+.input-group input::-webkit-search-cancel-button,
+.input-group input::-webkit-search-results-button,
+.input-group input::-webkit-search-results-decoration { display: none; }
+.input-group input { margin: 0 2.5em 0 .5em; }
+.input-group button {
+	white-space: nowrap;
+	position: absolute;
+	width: 2.5em;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	   -moz-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	     -o-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	right: 0;
+}
+```
