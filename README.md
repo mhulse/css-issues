@@ -680,3 +680,17 @@ Using custom attribute:
 }
 .padded > span { position: relative; } /* Prevents background overlap on wrapped lines. */
 ```
+
+### Selection
+
+```css
+::-moz-selection {
+    background: rgb(49, 112, 143, .55);
+    text-shadow: none;
+}
+
+::selection {
+    background: rgb(49, 112, 143, .55);
+    text-shadow: none;
+}
+```
