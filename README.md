@@ -510,7 +510,18 @@ hr,
 }
 ```
 
-### Grayscale filter
+### Printing
+
+Exact color printing:
+
+```css
+/* http://stackoverflow.com/a/15253634/922323 */
+*,
+*:before,
+*:after { -webkit-print-color-adjust: exact; }
+```
+
+Grayscale:
 
 ```css
 [container="print"] * {
