@@ -2,6 +2,19 @@
 
 A copy and paste selection of handy CSS code snippets. Useful for when quick, drop-in, solutions are needed.
 
+## [Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
+
+```css
+[value] { … }        /* Attribute exists */
+[value="foo"] { … }  /* Exact value */
+[value*="foo"] { … } /* Contains anywhere */
+[value~="foo"] { … } /* Space-separated contains */
+[value^="foo"] { … } /* Starts with */
+[value=|"foo"] { … } /* Dash-separated contains */
+[value$="foo"] { … } /* Ends with */
+/* Adding an i (or I) before the closing bracket causes the value to be compared case-insensitively. */
+```
+
 ## Semantic/contextual colors
 
 ### Bootstrap 3
@@ -317,36 +330,77 @@ blockquote::after { content: "\f10e"; }
 
 ## Layout
 
-Something on left, something on right, fluid:
+Simple two-column float, fixed left sidebar:
 
 ```css
 /*
-<div class="bunch">
+Simple two-column:
+<div class="box">
 	<(any element)>
 	<(any element)>
 </div>
 */
 
+.box > :first-child { display: none; }
+@media (min-width: 737px) {
+	.box::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.box > :first-child {
+		width: 300px;
+		float: left;
+		display: inline;
+	}
+	.box > :last-child { margin-left: 340px; }
+}
+```
+
+Something on left, something on right, fluid:
+
+```css
+/*
+Best for photos with captions to right or left:
+<div class="bunch bunch-[right|left]">
+	<(any element)>
+	<(any element)>
+</div>
+*/
+
+.bunch { margin: 20px 0; }
 .bunch::after {
 	content: "";
 	display: table;
 	clear: both;
 }
-.bunch > :first-child {
-	margin-right: 10px;
+.bunch.bunch-left > :first-child {
+	margin: 0 20px 0 0;
 	float: left;
 	display: inline;
 }
-.bunch > :last-child { overflow: auto; }
-.bunch > :last-child > :first-child { margin-top: 0; }
-.bunch > :last-child > :last-child { margin-bottom: 0; }
+.bunch.bunch-right > :first-child {
+	margin: 0 0 0 20px;
+	float: right;
+	display: inline;
+}
+@media (min-width: 737px) {
+	.bunch.bunch-left > :first-child { margin-right: 40px; }
+	.bunch.bunch-right > :first-child { margin-left: 40px; }
+}
+.bunch > :last-child {
+	margin: 0;
+	overflow: auto;
+}
+.bunch > * > :first-child { margin-top: 0; }
+.bunch > * > :last-child { margin-bottom: 0; }
 ```
 
 … for a responsive version of the above, change the `overflow` on `:last-child` to `visible` and add a media query (at desired breakpoint) to handle the “columnization” of the elements:
 
 ```css
 .bunch > :last-child { overflow: visible; }
-@media all and (min-width: 768px) {
+@media (min-width: 768px) {
 	.bunch > :last-child { overflow: auto; }
 }
 ```
@@ -445,30 +499,27 @@ Text on left, middle and right, same line:
 	display: table;
 	clear: both;
 }
-.split {
-	position: relative;
-	border: 1px solid red;
+.split { position: relative; }
+.split > div {
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
 }
-	.split > div {
-		text-align: center;
-		width: 100%;
-		position: absolute;
-		z-index: 1;
-	}
-	.split > div:first-child,
-	.split > div:last-child {
-		width: auto;
-		position: relative;
-		z-index: 2;
-	}
-	.split > div:first-child {
-		text-align: left;
-		float: left;
-	}
-	.split > div:last-child {
-		text-align: right;
-		float: right;
-	}
+.split > div:first-child,
+.split > div:last-child {
+	width: auto;
+	position: relative;
+	z-index: 2;
+}
+.split > div:first-child {
+	text-align: left;
+	float: left;
+}
+.split > div:last-child {
+	text-align: right;
+	float: right;
+}
 ```
 
 Calc columns:
@@ -550,63 +601,67 @@ Grayscale:
  * I wasn't able to normalize line-height of `<input type="buton">` in Firefox.
  * Conclusion: Don't use `<input>` for buttons.
  *
+ * <button class="button">Next</button>
+ * <a class="button" href="#">Previous</a>
+ * <button class="button button-cancel">Cancel</button>
+ *
  * @see https://github.com/yui/pure
  */
 
 .button {
-    font-weight: normal;
-    text-align: center;
-    line-height: normal;
-    vertical-align: baseline;
-    display: block;
-    zoom: 1;
-    cursor: pointer;
-    letter-spacing: .08em;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    mix-blend-mode: multiply;
-    font-size: 1.8rem;
-    line-height: 2rem;
-    border: none transparent;
-    box-shadow: none;
-    border-radius: .3rem;
-    padding: 1rem 2rem;
-    -webkit-tap-highlight-color: transparent;
+	font-weight: normal;
+	text-align: center;
+	line-height: normal;
+	vertical-align: baseline;
+	display: block;
+	zoom: 1;
+	cursor: pointer;
+	letter-spacing: .08em;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	mix-blend-mode: multiply;
+	font-size: 14px;
+	line-height: 1;
+	border: none transparent;
+	box-shadow: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+	-webkit-tap-highlight-color: transparent;
 }
 .button::-moz-focus-inner {
-    padding: 0;
-    border: 0;
+	padding: 0;
+	border: 0;
 }
 .button,
 .button:visited {
-    color: #fff;
-    background-color: #0f0077;
+	color: #fff;
+	background-color: #138d9c;
 }
 .button:visited:hover,
 .button:focus,
 .button:focus:hover,
 .button:hover,
 .button:active {
-    text-decoration: none;
-    color: #fff;
-    box-shadow: none;
-    background: #d68100;
+	text-decoration: none;
+	color: #fff;
+	box-shadow: none;
+	background: #138d9c;
 }
 .button:hover,
 .button:focus {
-    background-image: linear-gradient(
-        transparent,
-        rgba(0, 0, 0, .05) 40%,
-        rgba(0, 0, 0, .1)
-    );
+	background-image: linear-gradient(
+	    transparent,
+	    rgba(0, 0, 0, .05) 40%,
+	    rgba(0, 0, 0, .1)
+	);
 }
 .button:focus { outline: 0; }
 .button:active {
-    box-shadow: 0 0 0 .2rem rgba(0, 0, 0, .15) inset,
-                0 0 1rem rgba(0, 0, 0, 0.25) inset;
+	box-shadow: 0 0 0 .2em rgba(0, 0, 0, .15) inset,
+	            0 0 1em rgba(0, 0, 0, 0.25) inset;
 }
 .button[disabled],
 .button.button-disabled,
@@ -616,19 +671,27 @@ Grayscale:
 .button.button-disabled:focus:hover,
 .button.button-disabled:hover,
 .button.button-disabled:active {
-    border: none;
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-    filter: alpha(opacity=40);
-    -khtml-opacity: .40;
-      -moz-opacity: .40;
-       -ms-opacity: .40;
-        -o-opacity: .40;
-           opacity: .40;
-    cursor: not-allowed;
-    box-shadow: none;
+	border: none;
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	filter: alpha(opacity=40);
+	-khtml-opacity: .40;
+	  -moz-opacity: .40;
+	   -ms-opacity: .40;
+	    -o-opacity: .40;
+	       opacity: .40;
+	cursor: not-allowed;
+	box-shadow: none;
 }
 .button.button-hidden { display: none; }
+
+.button.button-cancel,
+.button.button-cancel:visited { background-color: #ec7263; }
+.button.button-cancel:visited:hover,
+.button.button-cancel:focus,
+.button.button-cancel:focus:hover,
+.button.button-cancel:hover,
+.button.button-cancel:active { background: #ec7263; }
 ```
 
 ### iOS callout on click
@@ -709,18 +772,28 @@ Gradient overlay:
 
 ```css
 /*
-<div id="slides">
-	<div>...</div>
+<div class="hero">
+	<div>
+		<div>
+			<h3>…</h3>
+			<p>…</p>
+		</div>
+	</div>
+	<img src="http://www.placehold.it/1000x500">
 </div>
 */
 
-#slides { position: relative; }
-#slides > div {
+.hero {
+	margin: 20px 0;
+	overflow: hidden;
+	position: relative;
+}
+.hero > div {
 	background: linear-gradient(
 		to top,
-		rgba(40, 67, 76, 1) 0,
-		rgba(45, 76, 86, 0.5) 30%,
-		rgba(53, 90, 102, 0) 75%
+		rgba(19, 141, 156, 1) 0,
+		rgba(19, 141, 156, 0.5) 30%,
+		rgba(19, 141, 156, 0) 75%
 	);
 	position: absolute;
 	top: 0;
@@ -728,6 +801,30 @@ Gradient overlay:
 	bottom: 0;
 	left: 0;
 	z-index: 2;
+}
+/* Example: */
+.hero > div > div {
+	padding: 20px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.hero > div > div * { color: #fff; }
+.hero > div > div > :first-child { margin-top: 0; }
+.hero > div > div > :last-child { margin-bottom: 0; }
+.hero a,
+.hero a:visited {
+	color: #09474C;
+	text-decoration: none;
+}
+.hero a:visited:hover,
+.hero a:focus,
+.hero a:focus:hover,
+.hero a:hover,
+.hero a:active {
+	color: #031D1C;
+	text-decoration: none;
 }
 ```
 
@@ -784,6 +881,63 @@ a img {
 		display: block;
 		margin: 0 auto;
 	}
+}
+```
+
+Images inline with copy (width of container based on image’s inherent width):
+
+```css
+
+/*
+<figure class="fig">
+	<img src="http://www.placehold.it/150x150">
+	<figcaption class="figcap">
+		<p>This is the caption.</p>
+	</figcaption>
+</figure>
+ */
+
+.fig {
+	margin: 0 auto;
+	display: table;
+}
+.fig img {
+	display: block;
+	width: 100%;
+}
+.fig .figcap {
+	display: table-caption;
+	caption-side: bottom;
+}
+```
+
+Same as above, but using hard-coded width (allows for image to be as big as desired, which can be good for retina displays):
+
+```
+/*
+<figure class="media">
+	<img src="foo.jpg">
+	<figcaption>
+		<p>This is the caption.</p>
+	</figcaption>
+</figure>
+*/
+
+.media { width: 150px; }
+.media img {
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.media-right {
+	margin: 0 0 20px 20px;
+	float: right;
+	display: inline;
+}
+.media-left {
+	margin: 0 20px 20px 0;
+	float: left;
+	display: inline;
 }
 ```
 
