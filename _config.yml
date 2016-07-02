@@ -3,6 +3,7 @@ exclude:
   - "Gemfile*"
   - "LICENSE"
   - "README.md"
+  - "DEV.md"
 safe: "true"
 collections:
   pages:

@@ -2,7 +2,7 @@
 title: Homepage
 ---
 
-{% assign groups = site.pages | group_by: "category" | sort: "name" %}
+{% assign groups = site.pages|group_by:"category"|sort:"name" %}
 {% for group in groups %}
 	<h3>{{ group.name }}</h3>
 	{% for item in group.items %}
@@ -10,7 +10,7 @@ title: Homepage
 		{% assign extension = item.path|split:'.'|last %}
 		{% if extension == "md" %}
 			{{ content }}
-		{% elsif item.language == "css" %}
+		{% elsif extension == "css" %}
 			{% highlight css %}{{ content }}{% endhighlight %}
 		{% else %}
 			{% highlight html %}{{ content }}{% endhighlight %}
