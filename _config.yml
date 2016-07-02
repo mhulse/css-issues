@@ -1,0 +1,22 @@
+exclude:
+  - "*.rb"
+  - "Gemfile*"
+  - "LICENSE"
+  - "README.md"
+safe: "true"
+collections:
+  pages:
+    output: "true"
+    permalink: "/:path"
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: "pages"
