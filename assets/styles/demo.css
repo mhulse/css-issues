@@ -43,40 +43,17 @@ html { font-size: 50%; } /* Root font size of `8px`. */
 
 body { padding: 5rem; }
 
-@-webkit-keyframes cursor-blink {
-  80% {
-    visibility: hidden;
-  }
-}
-@keyframes cursor-blink {
-  80% {
-    visibility: hidden;
-  }
-}
-pre,
-code,
-kbd,
-samp,
-var {
-  font-family: monospace, serif;
-}
-
 pre {
-  letter-spacing: .05em;
-  text-align: left;
-  word-wrap: normal;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  padding: 10px 15px;
-  overflow: auto;
-  white-space: pre;
-  -webkit-overflow-scrolling: touch;
-}
-.pre {
-	color: #444;
-	background: rgba(238, 238, 238, 0.5);
-	border: 1px solid #ddd;
-	border-radius: 3px;
+	font-family: monospace, serif;
+	letter-spacing: .05em;
+	text-align: left;
+	word-wrap: normal;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding: 10px 15px;
+	overflow: auto;
+	white-space: pre;
+	-webkit-overflow-scrolling: touch;
 }
 
 .highlight {
@@ -151,62 +128,3 @@ pre {
 .highlight .vg { color: #f8f8f2; }
 .highlight .vi { color: #f8f8f2; }
 .highlight .il { color: #ae81ff; }
-
-code,
-kbd,
-samp,
-var {
-  font-size: inherit;
-  font-weight: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  white-space: pre;
-  white-space: pre-wrap;
-  white-space: pre-line;
-  white-space: -pre-wrap;
-  white-space: -o-pre-wrap;
-  white-space: -moz-pre-wrap;
-  white-space: -hp-pre-wrap;
-  word-wrap: break-word;
-}
-
-code {
-  font-weight: normal;
-  letter-spacing: .05em;
-  background: rgba(0, 0, 0, 0.1);
-  padding: 1px 5px;
-  border-radius: 3px;
-}
-
-kbd {
-  font-size: smaller;
-  color: #333;
-  text-shadow: 0 1px 0 #fff;
-  background-color: #eee;
-  border: 1px solid #ccc;
-  margin: 0 .1em;
-  padding: 0 .5em;
-  display: inline-block;
-  -webkit-background-clip: padding;
-  -moz-background-clip: padding;
-  background-clip: padding-box;
-  border-radius: 3px;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
-}
-
-pre code,
-pre kbd,
-pre samp,
-pre var,
-kbd kbd {
-  font-size: inherit;
-  color: inherit;
-  text-shadow: none;
-  background: transparent;
-  border: 0;
-  margin: 0;
-  padding: 0;
-  display: inline;
-  box-shadow: none;
-  border-radius: 0;
-}
