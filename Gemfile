@@ -1,4 +1,11 @@
+# https://github.com/github/pages-gem
+# https://jekyllrb.com/docs/github-pages/
+
 source 'https://rubygems.org'
 
-# https://github.com/github/pages-gem
-gem 'github-pages', group: :jekyll_plugins
+require 'json'
+require 'open-uri'
+
+versions = JSON.parse(open('https://pages.github.com/versions.json').read)
+
+gem 'github-pages', versions['github-pages'], group: :jekyll_plugins

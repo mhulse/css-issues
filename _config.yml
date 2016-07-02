@@ -20,5 +20,3 @@ defaults:
       type: "pages"
     values:
       layout: "pages"
-markdown: redcarpet
-highlighter: pygments

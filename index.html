@@ -7,6 +7,6 @@ title: Homepage
 	<h3>{{ group.name }}</h3>
 	{% for item in group.items %}
 		{% highlight html %}{{ item.content|strip }}{% endhighlight %}
-		<p><a href="{{ item.url|remove:'index' }}">demo</a></p>
+		<p><a href="{{ item.url|remove_first:'/' }}">demo</a></p>
 	{% endfor %}
 {% endfor %}
