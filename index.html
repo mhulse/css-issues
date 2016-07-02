@@ -6,7 +6,12 @@ title: Homepage
 {% for group in groups %}
 	<h3>{{ group.name }}</h3>
 	{% for item in group.items %}
-		{% highlight html %}{{ item.content|strip }}{% endhighlight %}
+		{% capture content %}{{ item.content|strip }}{% endcapture %}
+		{% if item.language == "css" %}
+			{% highlight css %}{{ content }}{% endhighlight %}
+		{% else %}
+			{% highlight html %}{{ content }}{% endhighlight %}
+		{% endif %}
 		<p><a href="{{ item.url|remove_first:'/' }}">demo</a></p>
 	{% endfor %}
 {% endfor %}
