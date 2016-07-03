@@ -20,7 +20,7 @@ $ bundle update
 Execute jekyll and serve:
 
 ```bash
-$ bundle exec jekyll serve
+$ bundle exec jekyll serve -I
 ```
 
 View your locally-hosted site at <http://localhost:4000>.

@@ -1,3 +1,5 @@
+title: "CSS Bullets"
+description: "A copy and paste selection of handy CSS code snippets. Useful for when quick, drop-in, solutions are needed."
 exclude:
   - "*.rb"
   - "Gemfile*"

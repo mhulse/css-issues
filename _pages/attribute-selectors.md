@@ -5,9 +5,9 @@ category: selectors
 
 ```css
 /*
-<div value>Example</div>
-<div value="foo">Example</div>
-<div value="foo baz">Example</div>
+<div value>…</div>
+<div value="foo">…</div>
+<div value="foo baz">…</div>
 */
 
 [value] { … }        /* Attribute exists */

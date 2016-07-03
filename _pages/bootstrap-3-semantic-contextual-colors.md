@@ -1,9 +1,7 @@
 ---
-title: Semantic/contextual colors
-category: color
+title: Bootstrap 3 Semantic/contextual colors
+category: colors
 ---
-
-### Bootstrap 3
 
 Name | Example | Base | Background | Border
 :-:  | :-:     | :-:  | :-:        | :-:

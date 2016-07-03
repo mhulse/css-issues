@@ -5,16 +5,21 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	
-	<title>{{ page.title }}</title>
-	<meta name="description" content="">
-	<meta name="keywords" content="">
+	<title>{{ page.title }} | {{ site.title }}</title>
+	<meta name="description" content="{{ site.description }}">
 	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic|Bungee+Inline">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css">
+	<link rel="stylesheet" href="https://yui-s.yahooapis.com/combo?pure/0.6.0/grids-min.css&pure/0.6.0/grids-responsive-min.css">
 	<link rel="stylesheet" href="assets/demo.css">
 	
 	<style></style>
 	
 </head>
 <body>
+	
+	<h1 flag>{{ site.title }}</h1>
+	<h2 deck>{{ site.description }}</h2>
 	
 	{{ content }}
 	
