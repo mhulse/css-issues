@@ -113,27 +113,47 @@ img {
 }
 
 [flag] {
-	font: 400 15vw/.8 "Bungee Inline", arial, sans-serif;
+	font-weight: 700;
+	font-size: 8rem;
+	line-height: .8;
 	margin: 0 0 4rem;
 }
-.char2 { margin-left: -5px; }
-.char3 { margin-left: -6px; }
-.char6 { margin-left: -8px; }
-.char7 { margin-left: -9px; }
-.char8 { margin-left: -8px; }
-.char9 { margin-left: -8px; }
-.char10 { margin-left: -5px; }
-.char11 { margin-left: -7px; }
-
-[deck] {
-	text-transform: uppercase;
-	margin: -3rem 0 4rem;
+[flag] .char4 { display: block; }
+[flag] .char2 { margin-left: -2px; }
+[flag] .char3 { margin-left: -2px; }
+[flag] .char6 { margin-left: -3px; }
+[flag] .char7 { margin-left: -3px; }
+[flag] .char8 { margin-left: -4px; }
+[flag] .char9 { margin-left: -4px; }
+[flag] .char10 { margin-left: -2px; }
+[flag] .char11 { margin-left: -2px; }
+@media screen and (min-width: 35.5rem) {
+	[flag] .char2 { margin-left: -3px; }
+	[flag] .char3 { margin-left: -3px; }
+	[flag] .char6 { margin-left: -5px; }
+	[flag] .char7 { margin-left: -5px; }
+	[flag] .char8 { margin-left: -6px; }
+	[flag] .char9 { margin-left: -5px; }
+	[flag] .char10 { margin-left: -3px; }
+	[flag] .char11 { margin-left: -3px; }
+}
+@media screen and (min-width: 48em) {
+	[flag] { font-size: 12rem; }
+	[flag] .char2 { margin-left: -5px; }
+	[flag] .char3 { margin-left: -6px; }
+	[flag] .char6 { margin-left: -8px; }
+	[flag] .char7 { margin-left: -9px; }
+	[flag] .char8 { margin-left: -8px; }
+	[flag] .char9 { margin-left: -8px; }
+	[flag] .char10 { margin-left: -5px; }
+	[flag] .char11 { margin-left: -7px; }
 }
 
-ul p,
-ol p {
-	font-size: inherit;
-	margin: 0;
+[deck] {
+	font-size: 3rem;
+	font-weight: 200;
+	text-transform: uppercase;
+	margin: -4rem 0 4rem;
 }
 
 pre {
@@ -323,3 +343,25 @@ table th:last-child,
 table td:last-child { border-right: 0; }
 table svg,
 table img { display: inline; }
+
+ul, ol, dl {
+	margin: 2rem 0;
+	line-height: 1.1;
+}
+ul, ol { padding: 0 0 0 4rem; }
+ul ul, ul ol, ul dl,
+ol ol, ol ul, ol dl,
+dl dl, dl ul, dl ol { margin: 0; }
+dd { margin-left: 2rem; }
+dt { font-weight: bold; }
+li, dt, dd { margin-bottom: .5rem; }
+dd + dt { margin-top: 1rem; }
+li > :first-child,
+dd > :first-child { margin-top: 0 !important; }
+li > :last-child,
+dd > :last-child { margin-bottom: 0 !important; }
+ul p,
+ol p {
+	font-size: inherit;
+	margin: 0;
+}

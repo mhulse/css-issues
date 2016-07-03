@@ -20,6 +20,8 @@ $ bundle update
 Execute jekyll and serve:
 
 ```bash
+$ bundle exec jekyll serve
+# Incremental builds:
 $ bundle exec jekyll serve -I
 ```
 

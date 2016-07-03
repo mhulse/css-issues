@@ -1,10 +1,10 @@
 title: "CSS Bullets"
-description: "A copy and paste selection of handy CSS code snippets. Useful for when quick, drop-in, solutions are needed."
+description: "Code Snippets"
 exclude:
   - "*.rb"
   - "Gemfile*"
   - "LICENSE"
-  - "README.md"
+  - "README.markdown"
   - "DEV.md"
 safe: "true"
 collections:
