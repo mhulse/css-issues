@@ -48,9 +48,8 @@ pre {
 	letter-spacing: .05em;
 	text-align: left;
 	word-wrap: normal;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	padding: 10px 15px;
+	margin: 2rem 0;
+	padding: 0;
 	overflow: auto;
 	white-space: pre;
 	-webkit-overflow-scrolling: touch;
