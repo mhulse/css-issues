@@ -60,6 +60,29 @@ body {
 	text-shadow: none;
 }
 
+a {
+	box-shadow: inset 0 -.2rem 0 #ff3d7f;
+	-webkit-transition: box-shadow 100ms linear;
+	 -khtml-transition: box-shadow 100ms linear;
+	   -moz-transition: box-shadow 100ms linear;
+	    -ms-transition: box-shadow 100ms linear;
+	     -o-transition: box-shadow 100ms linear;
+	        transition: box-shadow 100ms linear;
+}
+a,
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+.no-touch a:visited:hover,
+a:focus,
+.no-touch a:focus:hover,
+.no-touch a:hover,
+a:active {
+	color: #ff3d7f;
+	box-shadow: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1.2;
 	letter-spacing: .02em;
@@ -81,6 +104,12 @@ h4, [h4], [sh4] { font-size: 2rem; }
 h5, [h5], [sh5] { font-size: 1.8rem; }
 h6, [h6], [sh6] { font-size: 1.6rem; }
 h1:empty { display: none; }
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
 
 [flag] {
 	font: 400 15vw/.8 "Bungee Inline", arial, sans-serif;
@@ -194,18 +223,19 @@ pre {
 	color: #000;
 	text-decoration: none;
 	border: .2rem solid #000;
+	box-shadow: none;
 }
-[marker] a:visited:hover,
+.no-touch [marker] a:visited:hover,
 [marker] a:focus,
-[marker] a:focus:hover,
-[marker] a:hover,
+.no-touch [marker] a:focus:hover,
+.no-touch [marker] a:hover,
 [marker] a:active {
 	color: #fff;
 	text-decoration: none;
 	background: #000;
 }
 
-[item] { margin: 2rem 0; }
+[item] { margin: 2rem 0 4rem; }
 [item] > :first-child { margin-top: 0 !important; }
 [item] > :last-child { margin-bottom: 0 !important; }
 
@@ -223,4 +253,15 @@ html, button, input, select, textarea,
 .pure-g > :last-child > :last-child { margin-bottom: 0 !important; }
 @media screen and (min-width: 48em) {
 	.pure-g > div:first-child { padding-right: 2rem; }
+}
+
+[octocat] {
+	width: 5rem;
+	height: 5rem;
+	background: url(octocat.png) no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	box-shadow: none !important;
 }

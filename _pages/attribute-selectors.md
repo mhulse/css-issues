@@ -19,3 +19,5 @@ category: selectors
 [value$="foo"] { … } /* Ends with */
 /* Adding an i (or I) before the closing bracket causes the value to be compared case-insensitively. */
 ```
+
+* [MDN: Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
