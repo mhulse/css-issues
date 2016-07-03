@@ -50,6 +50,7 @@ body {
 @media screen and (min-width: 80rem) {
 	body { padding: 5rem; }
 }
+body { padding-bottom: 50rem; }
 
 ::-moz-selection {
 	background: rgba(0, 0, 255, .3);
@@ -113,12 +114,26 @@ img {
 
 [flag] {
 	font: 400 15vw/.8 "Bungee Inline", arial, sans-serif;
-	letter-spacing: -.05em;
 	margin: 0 0 4rem;
 }
+.char2 { margin-left: -5px; }
+.char3 { margin-left: -6px; }
+.char6 { margin-left: -8px; }
+.char7 { margin-left: -9px; }
+.char8 { margin-left: -8px; }
+.char9 { margin-left: -8px; }
+.char10 { margin-left: -5px; }
+.char11 { margin-left: -7px; }
+
 [deck] {
 	text-transform: uppercase;
 	margin: -3rem 0 4rem;
+}
+
+ul p,
+ol p {
+	font-size: inherit;
+	margin: 0;
 }
 
 pre {
@@ -212,17 +227,16 @@ pre {
 [marker] a {
 	letter-spacing: .1em;
 	margin-left: .5rem;
-	padding: .5rem 1rem;
+	padding: 1rem 1.5rem;
 	float: left;
-	background: #fff;
+	background: #ff3d7f;
 }
 [marker] :first-child { margin-left: 0; }
 [marker] span,
 [marker] a,
 [marker] a:visited {
-	color: #000;
+	color: #fff;
 	text-decoration: none;
-	border: .2rem solid #000;
 	box-shadow: none;
 }
 .no-touch [marker] a:visited:hover,
@@ -265,3 +279,47 @@ html, button, input, select, textarea,
 	right: 1rem;
 	box-shadow: none !important;
 }
+
+table {
+	margin: 2rem 0;
+	width: 100%;
+	display: inline-table;
+	border-collapse: collapse;
+	empty-cells: hide;
+}
+table caption { text-align: left; }
+table thead { vertical-align: bottom; }
+table tfoot { vertical-align: top; }
+table tfoot th,
+table tfoot td { color: #666; }
+table th,
+table td {
+	text-align: left;
+	padding: .5rem;
+}
+table th *,
+table td * { vertical-align: middle; }
+table th:first-child,
+table td:first-child { padding-left: 0; }
+table th:last-child,
+table td:last-child { padding-right: 0; }
+table th { white-space: nowrap; }
+table tbody { vertical-align: top; }
+table thead th,
+table tbody th,
+table tbody td { border-bottom: 1px solid #000; }
+table tfoot th,
+table tfoot td { border-top: 1px solid #000; }
+table tbody tr:last-child th,
+table tbody tr:last-child td { border-bottom: 0; }
+table th,
+table td {
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+}
+table th:first-child,
+table td:first-child { border-left: 0; }
+table th:last-child,
+table td:last-child { border-right: 0; }
+table svg,
+table img { display: inline; }

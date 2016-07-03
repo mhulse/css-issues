@@ -4,22 +4,19 @@ title: Homepage
 
 {% assign groups = site.pages|group_by:"category"|sort:"name" %}
 {% for group in groups %}
-	<section id="{{ group.name|slugify }}">
-		<h3 marker><div><a href="#{{ group.name|slugify }}">{{ group.name }}</a></div></h3>
-		{% for item in group.items %}
-			<div item>
-				<h4 sh2>{{ item.title }}</h4>
-				{% assign content = item.content|strip %}
-				{% assign extension = item.path|split:'.'|last %}
-				{% if extension == "md" %}
-					{{ content }}
-				{% elsif extension == "css" %}
-					{% highlight css %}{{ content }}{% endhighlight %}
-				{% else %}
-					{% highlight html %}{{ content }}{% endhighlight %}
-				{% endif %}
-				{% if extension != "md" %}<p><a href="{{ item.url|remove_first:'/' }}">demo</a></p>{% endif %}
-			</div>
-		{% endfor %}
-	</section>
+	{% if group.name != "" %}
+		<section id="{{ group.name|slugify }}">
+			<h3 marker><div><a href="#{{ group.name|slugify }}">{{ group.name }}</a></div></h3>
+			{% for item in group.items %}
+				<div item>
+					<h4 sh2>{{ item.title }}</h4>
+					{% assign extension = item.path|split:'.'|last %}
+					{% if extension == "md" %}
+						{{ item.content|strip }}
+					{% endif %}
+					{% if item.demo %}<p><a href="{{ item.url|remove_first:'/'|split:'/'|pop }}/{{ item.demo }}">demo</a></p>{% endif %}
+				</div>
+			{% endfor %}
+		</section>
+	{% endif %}
 {% endfor %}
