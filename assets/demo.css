@@ -41,7 +41,7 @@ html { font-size: 50%; } /* Root font size of `8px`. */
 
 body {
 	/* `16px` base font size: */
-	font: 400 1.4rem/1.4 Roboto, sans-serif; /* Use `em` if you want the property to scale according to its font size and `rem` for everything else. */
+	font: 400 1.4rem/1.4 "Space Mono", monospace; /* Use `em` if you want the property to scale according to its font size and `rem` for everything else. */
 	padding: 1rem;
 }
 @media screen and (min-width: 35.5rem) {
@@ -113,45 +113,13 @@ img {
 }
 
 [flag] {
-	font-weight: 700;
 	font-size: 8rem;
 	line-height: .8;
 	margin: 0 0 4rem;
 }
-[flag] .char4 { display: block; }
-[flag] .char2 { margin-left: -2px; }
-[flag] .char3 { margin-left: -2px; }
-[flag] .char6 { margin-left: -3px; }
-[flag] .char7 { margin-left: -3px; }
-[flag] .char8 { margin-left: -4px; }
-[flag] .char9 { margin-left: -4px; }
-[flag] .char10 { margin-left: -2px; }
-[flag] .char11 { margin-left: -2px; }
-@media screen and (min-width: 35.5rem) {
-	[flag] .char2 { margin-left: -3px; }
-	[flag] .char3 { margin-left: -3px; }
-	[flag] .char6 { margin-left: -5px; }
-	[flag] .char7 { margin-left: -5px; }
-	[flag] .char8 { margin-left: -6px; }
-	[flag] .char9 { margin-left: -5px; }
-	[flag] .char10 { margin-left: -3px; }
-	[flag] .char11 { margin-left: -3px; }
-}
-@media screen and (min-width: 48em) {
-	[flag] { font-size: 12rem; }
-	[flag] .char2 { margin-left: -5px; }
-	[flag] .char3 { margin-left: -6px; }
-	[flag] .char6 { margin-left: -8px; }
-	[flag] .char7 { margin-left: -9px; }
-	[flag] .char8 { margin-left: -8px; }
-	[flag] .char9 { margin-left: -8px; }
-	[flag] .char10 { margin-left: -5px; }
-	[flag] .char11 { margin-left: -7px; }
-}
 
 [deck] {
 	font-size: 3rem;
-	font-weight: 200;
 	text-transform: uppercase;
 	margin: -4rem 0 4rem;
 }
