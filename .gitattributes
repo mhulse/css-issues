@@ -1,3 +1,17 @@
 # https://github.com/mhulse/gh-boiler/issues/42
 
 * text=auto
+
+*.ai binary
+*.dcst binary
+*.flst binary
+*.indb binary
+*.indd binary
+*.indt binary
+*.pdf binary
+*.psd binary
+*.blend* binary
+
+*.eot binary
+*.ttf binary
+*.woff* binary

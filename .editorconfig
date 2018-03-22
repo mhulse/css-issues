@@ -4,8 +4,8 @@
 root = true
 
 [*]
-charset = UTF-8
-end_of_line = LF
+charset = utf-8
+end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = false
 indent_size = 4
@@ -14,7 +14,7 @@ indent_style = tab
 [*.py]
 indent_style = space
 
-[*.{ini,json,rb,yml}]
+[*.{ini,json,rb,yml,sh,bash}]
 indent_size = 2
 indent_style = space
 
@@ -22,12 +22,12 @@ indent_style = space
 indent_size = 2
 indent_style = space
 
-[{Gemfile*,Rakefile}]
+[{gemfile*,rakefile,vagrantfile}]
 indent_size = 2
 indent_style = space
 
 [*.bat]
 end_of_line = crlf
 
-[CNAME]
+[cname]
 insert_final_newline = false

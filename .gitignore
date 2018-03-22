@@ -22,12 +22,13 @@
 *.jar
 *.rar
 *.tar
+*.tgz
 *.zip
 
 # LOGS AND DATABASES #
 ######################
 
-*.log
+*.log*
 *.sql
 *.sqlite
 *.db
@@ -48,20 +49,35 @@ Thumbs.db
 # EDITORS #
 ###########
 
+_compareTemp
+.\#*
+.elc
+.idea
+.project
+.pydevproject
+.settings
+.vscode
+[_]notes/
+*.[lL][cC][kK]
+*.mno
 *.sublime-workspace
 *.swo
 *.swp
 *~
-.\#*
-.elc
-.project
-.pydevproject
-.settings
 /.emacs.desktop
 /.emacs.desktop.lock
 \#*\#
 auto-save-list
+configs/
+dwsync.xml
 tramp
+
+# RUNTIME DATA #
+################
+
+*.pid
+*.seed
+pids
 
 # MISCELLANEOUS #
 #################
@@ -73,6 +89,3 @@ sitemap.xml.gz*~
 
 # PROJECT-SPECIFIC #
 ####################
-
-_site
-.jekyll*
