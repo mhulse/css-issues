@@ -1,4 +1,3 @@
-- [ min-height: 100vh; alternative to 100% min-height on body and html](https://github.com/mhulse/css-bullets/issues/111)
 - [.h1 - .h6](https://github.com/mhulse/css-bullets/issues/4)
 - [Aliased images](https://github.com/mhulse/css-bullets/issues/161)
 - [Align image right, left and center](https://github.com/mhulse/css-bullets/issues/169)
