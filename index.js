@@ -49,7 +49,7 @@ getIssues(octokit.issues.getForRepo)
 
         Object.keys(data).forEach(function(key) {
 
-            links.push(`- [${data[key].title}](${data[key].url})`);
+            links.push(`- [${data[key].title}](${data[key].html_url})`);
 
         });
 
