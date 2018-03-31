@@ -44,7 +44,7 @@ getIssues(octokit.issues.getForRepo)
 
         let links = [];
         let sorted = data.sort(function(a, b) {
-            return a.title > b.title ? 1:-1;
+            return a.title.toUpperCase() > b.title.toUpperCase() ? 1:-1;
         });
 
         Object.keys(data).forEach(function(key) {
