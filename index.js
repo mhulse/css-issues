@@ -46,14 +46,17 @@ getIssues(octokit.issues.getForRepo)
         let sorted = data.sort(function(a, b) {
             return a.title.toUpperCase() > b.title.toUpperCase() ? 1:-1;
         });
+        let table = 'Tip | Issue #\n--- | ---\n';
 
         Object.keys(data).forEach(function(key) {
 
-            links.push(`- [${data[key].title}](${data[key].html_url}) (#${data[key].number})`);
+            links.push(`[${data[key].title}](${data[key].html_url}) | #${data[key].number}`);
 
         });
 
-        fs.writeFile('README.md', links.join('\n'), (err) => {
+        table += links.join('\n');
+
+        fs.writeFile('README.md', table, (err) => {
             if (err) throw err;
             console.log("The file was succesfully saved!");
         });
