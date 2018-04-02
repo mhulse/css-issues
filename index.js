@@ -1,5 +1,27 @@
 // jshint ignore: start
 
+
+//
+//
+//
+//
+//
+//
+//
+//
+// WARNING …
+// This code written on a Sunday, several brews deep.
+// Code could be much better … This is proof of concept!
+// As always … PRs welcome!
+//
+//
+//
+//
+//
+//
+//
+//
+
 const octokit = require('@octokit/rest')();
 const fs = require('fs');
 const config = require('./config.json');
@@ -14,9 +36,26 @@ if (config.password) {
     console.log('Password needed!');
 }
 
-async function getIssues(method) {
-    let response = await method({
+async function getLabels() {
+    let response = await octokit.issues.getLabels({
+        owner: 'mhulse',
+        repo: 'css-bullets',
+        // page,
         per_page: 100,
+        headers: {
+          accept: 'application/vnd.github.symmetra-preview+json'
+        }
+    });
+    let {data} = response;
+    while (octokit.hasNextPage(response)) {
+        response = await octokit.getNextPage(response);
+        data = data.concat(response.data);
+    }
+    return data;
+};
+
+async function getIssues(label) {
+    let response = await octokit.issues.getForRepo({
         owner: 'mhulse',
         repo: 'css-bullets',
         // milestone,
@@ -24,11 +63,15 @@ async function getIssues(method) {
         // assignee,
         // creator,
         // per_page,
-        labels: 'readme'
+        labels: [
+            'readme',
+            label,
+        ].join(','),
         // sort,
         // direction,
         // since,
         // page,
+        per_page: 100,
         // mentioned
     });
     let {data} = response;
@@ -39,26 +82,54 @@ async function getIssues(method) {
     return data;
 };
 
-getIssues(octokit.issues.getForRepo)
-    .then(data => {
+// Blank the file:
+fs.writeFileSync('README.md', '');
 
-        let links = [];
-        let sorted = data.sort(function(a, b) {
-            return a.title.toUpperCase() > b.title.toUpperCase() ? 1:-1;
-        });
-        let table = 'Tip | Issue #\n--- | ---\n';
+getLabels()
+    .then(labels => {
 
-        Object.keys(data).forEach(function(key) {
-
-            links.push(`[${data[key].title}](${data[key].html_url}) | #${data[key].number}`);
-
+        labels.sort(function(a, b) {
+            return (a.name.toUpperCase() > b.name.toUpperCase() ? 1:-1);
         });
 
-        table += links.join('\n');
+        Object.keys(labels).forEach(function(labels_key) {
 
-        fs.writeFile('README.md', table, (err) => {
-            if (err) throw err;
-            console.log("The file was succesfully saved!");
+            let label = labels[labels_key];
+            let label_name = label.name;
+
+            console.log(label_name);
+
+            label_name = ((label_name != 'README') ? label_name : '');
+
+            getIssues(label_name)
+                .then(issues => {
+
+                    if (issues.length) {
+
+                        label_name = (label_name || 'Uncategorized');
+
+                        let links = [];
+                        issues.sort(function(a, b) {
+                            return (a.title.toUpperCase() > b.title.toUpperCase() ? 1:-1);
+                        });
+                        let table = '\n\n' + 'Tip | Issue #\n--- | ---\n';
+
+                        table = '\n\n## ' + label_name + table;
+
+                        Object.keys(issues).forEach(function(issues_key) {
+
+                            links.push(`[${issues[issues_key].title}](${issues[issues_key].html_url}) | ${issues[issues_key].number}`);
+
+                        });
+
+                        table += links.join('\n');
+
+                        fs.appendFileSync('README.md', table);
+
+                    }
+
+                })
+
         });
 
     });
