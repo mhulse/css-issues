@@ -1,10 +1,13 @@
 {
-  "name": "css-bullets",
+  "name": "pragmatic-css",
   "version": "1.0.0",
-  "description": "A copy and paste selection of handy CSS code snippets. Useful for when quick, drop-in, solutions are needed.",
+  "description": "",
   "main": "index.js",
   "scripts": {},
   "dependencies": {
-    "@octokit/rest": "^15.2.6"
+    "@octokit/rest": "^15.2.6",
+    "json-groupby": "^1.1.0",
+    "object-delete-value": "^1.0.0",
+    "sort-keys": "^2.0.0"
   }
 }

@@ -1,6 +1,9 @@
 // jshint ignore: start
 
 const octokit = require('@octokit/rest')();
+const groupby = require('json-groupby');
+const sortkeys = require('sort-keys');
+const delval = require('object-delete-value')
 const fs = require('fs');
 const config = require('./config.json');
 
@@ -14,22 +17,25 @@ if (config.password) {
     console.log('Password needed!');
 }
 
-async function getIssues(method) {
-    let response = await method({
-        per_page: 100,
+async function getIssues(labels = []) {
+    let response = await octokit.issues.getForRepo({
         owner: 'mhulse',
-        repo: 'css-bullets',
+        repo: 'pragmatic-css',
         // milestone,
         state: 'open',
         // assignee,
         // creator,
         // per_page,
-        labels: 'readme'
+        labels: labels.join(','),
         // sort,
         // direction,
         // since,
         // page,
+        per_page: 100,
         // mentioned
+        headers: {
+          accept: 'application/vnd.github.symmetra-preview+json'
+        },
     });
     let {data} = response;
     while (octokit.hasNextPage(response)) {
@@ -39,26 +45,63 @@ async function getIssues(method) {
     return data;
 };
 
-getIssues(octokit.issues.getForRepo)
-    .then(data => {
+getIssues([
+    'README'
+]).then(issues => {
 
-        let links = [];
-        let sorted = data.sort(function(a, b) {
-            return a.title.toUpperCase() > b.title.toUpperCase() ? 1:-1;
+    if (issues.length) {
+
+        let issues_grouped = groupby(issues, ['labels.name']);
+        let issues_sorted = sortkeys(issues_grouped);
+        let issues_sorted_copy = JSON.parse(JSON.stringify(issues_sorted)); // Deep copy.
+        let output = '';
+        let issues_found = [];
+
+        output += '# Pragmatic CSS\n'
+
+        output += '\n**Practical CSS code snippets and examples.**\n'
+
+        Object.keys(issues_sorted).forEach(issue => {
+
+            if (issue != 'README') {
+
+                output += ('\n\n## ' + issue);
+
+                output += ('\n\n' + 'Tip | Issue #\n--- | ---');
+
+                Object.keys(issues_sorted[issue]).forEach(issues_key => {
+
+                    issues_key = issues_sorted[issue][issues_key];
+
+                    issues_found.push(issues_key.number);
+
+                    output += (`\n[${issues_key.title}](${issues_key.html_url}) | ${issues_key.number}`);
+
+
+                });
+
+            }
+
         });
-        let table = 'Tip | Issue #\n--- | ---\n';
 
-        Object.keys(data).forEach(function(key) {
+        output += ('\n\n## Uncategorized');
 
-            links.push(`[${data[key].title}](${data[key].html_url}) | #${data[key].number}`);
+        output += ('\n\n' + 'Tip | Issue #\n--- | ---');
+
+        Object.keys(issues_sorted_copy['README']).forEach(issues_key => {
+
+            issues_key = issues_sorted_copy['README'][issues_key];
+
+            if ( ! issues_found.includes(issues_key.number)) {
+
+                output += (`\n[${issues_key.title}](${issues_key.html_url}) | ${issues_key.number}`);
+
+            }
 
         });
 
-        table += links.join('\n');
+        fs.writeFileSync('README.md', output);
 
-        fs.writeFile('README.md', table, (err) => {
-            if (err) throw err;
-            console.log("The file was succesfully saved!");
-        });
+    }
 
-    });
+});
