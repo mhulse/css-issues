@@ -1,28 +1,9 @@
 // jshint ignore: start
 
-
-//
-//
-//
-//
-//
-//
-//
-//
-// WARNING …
-// This code written on a Sunday, several brews deep.
-// Code could be much better … This is proof of concept!
-// As always … PRs welcome!
-//
-//
-//
-//
-//
-//
-//
-//
-
 const octokit = require('@octokit/rest')();
+const groupby = require('json-groupby');
+const sortkeys = require('sort-keys');
+const delval = require('object-delete-value')
 const fs = require('fs');
 const config = require('./config.json');
 
@@ -36,43 +17,25 @@ if (config.password) {
     console.log('Password needed!');
 }
 
-async function getLabels() {
-    let response = await octokit.issues.getLabels({
-        owner: 'mhulse',
-        repo: 'css-bullets',
-        // page,
-        per_page: 100,
-        headers: {
-          accept: 'application/vnd.github.symmetra-preview+json'
-        }
-    });
-    let {data} = response;
-    while (octokit.hasNextPage(response)) {
-        response = await octokit.getNextPage(response);
-        data = data.concat(response.data);
-    }
-    return data;
-};
-
-async function getIssues(label) {
+async function getIssues(labels = []) {
     let response = await octokit.issues.getForRepo({
         owner: 'mhulse',
-        repo: 'css-bullets',
+        repo: 'pragmatic-css',
         // milestone,
         state: 'open',
         // assignee,
         // creator,
         // per_page,
-        labels: [
-            'readme',
-            label,
-        ].join(','),
+        labels: labels.join(','),
         // sort,
         // direction,
         // since,
         // page,
         per_page: 100,
         // mentioned
+        headers: {
+          accept: 'application/vnd.github.symmetra-preview+json'
+        },
     });
     let {data} = response;
     while (octokit.hasNextPage(response)) {
@@ -82,54 +45,63 @@ async function getIssues(label) {
     return data;
 };
 
-// Blank the file:
-fs.writeFileSync('README.md', '');
+getIssues([
+    'README'
+]).then(issues => {
 
-getLabels()
-    .then(labels => {
+    if (issues.length) {
 
-        labels.sort(function(a, b) {
-            return (a.name.toUpperCase() > b.name.toUpperCase() ? 1:-1);
-        });
+        let issues_grouped = groupby(issues, ['labels.name']);
+        let issues_sorted = sortkeys(issues_grouped);
+        let issues_sorted_copy = JSON.parse(JSON.stringify(issues_sorted)); // Deep copy.
+        let output = '';
+        let issues_found = [];
 
-        Object.keys(labels).forEach(function(labels_key) {
+        output += '# Pragmatic CSS\n'
 
-            let label = labels[labels_key];
-            let label_name = label.name;
+        output += '\n**Practical CSS code snippets and examples.**\n'
 
-            console.log(label_name);
+        Object.keys(issues_sorted).forEach(issue => {
 
-            label_name = ((label_name != 'README') ? label_name : '');
+            if (issue != 'README') {
 
-            getIssues(label_name)
-                .then(issues => {
+                output += ('\n\n## ' + issue);
 
-                    if (issues.length) {
+                output += ('\n\n' + 'Tip | Issue #\n--- | ---');
 
-                        label_name = (label_name || 'Uncategorized');
+                Object.keys(issues_sorted[issue]).forEach(issues_key => {
 
-                        let links = [];
-                        issues.sort(function(a, b) {
-                            return (a.title.toUpperCase() > b.title.toUpperCase() ? 1:-1);
-                        });
-                        let table = '\n\n' + 'Tip | Issue #\n--- | ---\n';
+                    issues_key = issues_sorted[issue][issues_key];
 
-                        table = '\n\n## ' + label_name + table;
+                    issues_found.push(issues_key.number);
 
-                        Object.keys(issues).forEach(function(issues_key) {
+                    output += (`\n[${issues_key.title}](${issues_key.html_url}) | ${issues_key.number}`);
 
-                            links.push(`[${issues[issues_key].title}](${issues[issues_key].html_url}) | ${issues[issues_key].number}`);
 
-                        });
+                });
 
-                        table += links.join('\n');
-
-                        fs.appendFileSync('README.md', table);
-
-                    }
-
-                })
+            }
 
         });
 
-    });
+        output += ('\n\n## Uncategorized');
+
+        output += ('\n\n' + 'Tip | Issue #\n--- | ---');
+
+        Object.keys(issues_sorted_copy['README']).forEach(issues_key => {
+
+            issues_key = issues_sorted_copy['README'][issues_key];
+
+            if ( ! issues_found.includes(issues_key.number)) {
+
+                output += (`\n[${issues_key.title}](${issues_key.html_url}) | ${issues_key.number}`);
+
+            }
+
+        });
+
+        fs.writeFileSync('README.md', output);
+
+    }
+
+});
