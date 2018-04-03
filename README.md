@@ -1,4 +1,4 @@
-# Pragmatic CSS
+# CSS Issues
 
 **Practical CSS code snippets and examples.**
 
