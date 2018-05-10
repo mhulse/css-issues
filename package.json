@@ -1,9 +1,14 @@
 {
-  "name": "pragmatic-css",
+  "//": "Generate a new README.md by running `$ npm install` and then `$ npm start`.",
+  "name": "css-issues",
+  "title": "CSS Issues",
+  "description": "Practical CSS code snippets and examples.",
+  "repository": "https://github.com/mhulse/css-issues",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+      "start": "node ."
+  },
   "dependencies": {
     "@octokit/rest": "^15.2.6",
     "json-groupby": "^1.1.0",

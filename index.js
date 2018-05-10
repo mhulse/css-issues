@@ -6,6 +6,7 @@ const sortkeys = require('sort-keys');
 const delval = require('object-delete-value')
 const fs = require('fs');
 const config = require('./config.json');
+const package = require('./package.json');
 
 if (config.password) {
     octokit.authenticate({
@@ -57,9 +58,9 @@ getIssues([
         let output = '';
         let issues_found = [];
 
-        output += '# Pragmatic CSS\n'
+        output += `# ${package.title}\n`
 
-        output += '\n**Practical CSS code snippets and examples.**\n'
+        output += `\n**${package.description}**\n`
 
         Object.keys(issues_sorted).forEach(issue => {
 
