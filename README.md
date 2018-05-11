@@ -5,52 +5,54 @@
 
 ## Borders
 
-Tip | Issue #
---- | ---
+Description | Issue #
+:-- | :--
 [Multiple-border box](https://github.com/mhulse/css-issues/issues/177) | 177
+[Css circle](https://github.com/mhulse/css-issues/issues/23) | 23
 
 ## Boxes
 
-Tip | Issue #
---- | ---
+Description | Issue #
+:-- | :--
 [Multiple-border box](https://github.com/mhulse/css-issues/issues/177) | 177
+[Css circle](https://github.com/mhulse/css-issues/issues/23) | 23
 
 ## Buttons
 
-Tip | Issue #
---- | ---
+Description | Issue #
+:-- | :--
 [Font Awesome icons](https://github.com/mhulse/css-issues/issues/165) | 165
 
 ## Flexbox
 
-Tip | Issue #
---- | ---
+Description | Issue #
+:-- | :--
 [Two column layout with flexbox enhancement](https://github.com/mhulse/css-issues/issues/181) | 181
 
 ## Font Awesome
 
-Tip | Issue #
---- | ---
+Description | Issue #
+:-- | :--
 [Font Awesome icons](https://github.com/mhulse/css-issues/issues/165) | 165
 
 ## Forms
 
-Tip | Issue #
---- | ---
+Description | Issue #
+:-- | :--
 [Text area that grows as you type](https://github.com/mhulse/css-issues/issues/179) | 179
 [Input with button on same line, no widths](https://github.com/mhulse/css-issues/issues/174) | 174
 
 ## Globals
 
-Tip | Issue #
---- | ---
+Description | Issue #
+:-- | :--
 [Better box model](https://github.com/mhulse/css-issues/issues/143) | 143
 [Overflow html/body auto](https://github.com/mhulse/css-issues/issues/83) | 83
 
 ## Images
 
-Tip | Issue #
---- | ---
+Description | Issue #
+:-- | :--
 [Proportional scaling image element](https://github.com/mhulse/css-issues/issues/176) | 176
 [Image captions](https://github.com/mhulse/css-issues/issues/170) | 170
 [Remove outline from a linked image](https://github.com/mhulse/css-issues/issues/168) | 168
@@ -58,8 +60,8 @@ Tip | Issue #
 
 ## Layout
 
-Tip | Issue #
---- | ---
+Description | Issue #
+:-- | :--
 [Two column layout with flexbox enhancement](https://github.com/mhulse/css-issues/issues/181) | 181
 [Input with button on same line, no widths](https://github.com/mhulse/css-issues/issues/174) | 174
 [Align image right, left and center](https://github.com/mhulse/css-issues/issues/169) | 169
@@ -69,49 +71,55 @@ Tip | Issue #
 
 ## Links
 
-Tip | Issue #
---- | ---
+Description | Issue #
+:-- | :--
 [Remove outline from a linked image](https://github.com/mhulse/css-issues/issues/168) | 168
 [Links](https://github.com/mhulse/css-issues/issues/140) | 140
 
 ## Lists
 
-Tip | Issue #
---- | ---
+Description | Issue #
+:-- | :--
 [Custom list counter](https://github.com/mhulse/css-issues/issues/178) | 178
 
 ## Media
 
-Tip | Issue #
---- | ---
+Description | Issue #
+:-- | :--
 [Proportional scaling image element](https://github.com/mhulse/css-issues/issues/176) | 176
 [Image captions](https://github.com/mhulse/css-issues/issues/170) | 170
 [Align image right, left and center](https://github.com/mhulse/css-issues/issues/169) | 169
 
 ## Responsive
 
-Tip | Issue #
---- | ---
+Description | Issue #
+:-- | :--
 [Two column layout with flexbox enhancement](https://github.com/mhulse/css-issues/issues/181) | 181
 [Responsive images](https://github.com/mhulse/css-issues/issues/167) | 167
 [Overflow html/body auto](https://github.com/mhulse/css-issues/issues/83) | 83
 
 ## Tables
 
-Tip | Issue #
---- | ---
+Description | Issue #
+:-- | :--
 [Table styles](https://github.com/mhulse/css-issues/issues/72) | 72
+
+## Tricks
+
+Description | Issue #
+:-- | :--
+[Css circle](https://github.com/mhulse/css-issues/issues/23) | 23
 
 ## Typography
 
-Tip | Issue #
---- | ---
+Description | Issue #
+:-- | :--
 [Multi-line padded text](https://github.com/mhulse/css-issues/issues/166) | 166
 
 ## Uncategorized
 
-Tip | Issue #
---- | ---
+Description | Issue #
+:-- | :--
 [Disable iOS callout on click](https://github.com/mhulse/css-issues/issues/164) | 164
 [Grayscale printing](https://github.com/mhulse/css-issues/issues/163) | 163
 [Exact color printing](https://github.com/mhulse/css-issues/issues/162) | 162
@@ -216,7 +224,6 @@ Tip | Issue #
 [Wiffle faux column borders](https://github.com/mhulse/css-issues/issues/26) | 26
 [Font-sizing 62.5% and rems](https://github.com/mhulse/css-issues/issues/25) | 25
 [Bold hover](https://github.com/mhulse/css-issues/issues/24) | 24
-[Css circle](https://github.com/mhulse/css-issues/issues/23) | 23
 [When to rem/em](https://github.com/mhulse/css-issues/issues/22) | 22
 [Bootstrap 4 font stack](https://github.com/mhulse/css-issues/issues/21) | 21
 [hand](https://github.com/mhulse/css-issues/issues/20) | 20

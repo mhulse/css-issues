@@ -68,7 +68,7 @@ getIssues([
 
                 output += ('\n\n## ' + issue);
 
-                output += ('\n\n' + 'Tip | Issue #\n--- | ---');
+                output += ('\n\n' + 'Description | Issue #\n:-- | :--');
 
                 Object.keys(issues_sorted[issue]).forEach(issues_key => {
 
@@ -87,7 +87,7 @@ getIssues([
 
         output += ('\n\n## Uncategorized');
 
-        output += ('\n\n' + 'Tip | Issue #\n--- | ---');
+        output += ('\n\n' + 'Description | Issue #\n:-- | :--');
 
         Object.keys(issues_sorted_copy['README']).forEach(issues_key => {
 
