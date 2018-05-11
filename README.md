@@ -22,6 +22,7 @@ Description | Issue #
 Description | Issue #
 :-- | :--
 [Font Awesome icons](https://github.com/mhulse/css-issues/issues/165) | 165
+[hand](https://github.com/mhulse/css-issues/issues/20) | 20
 
 ## Flexbox
 
@@ -41,6 +42,7 @@ Description | Issue #
 :-- | :--
 [Text area that grows as you type](https://github.com/mhulse/css-issues/issues/179) | 179
 [Input with button on same line, no widths](https://github.com/mhulse/css-issues/issues/174) | 174
+[Search box](https://github.com/mhulse/css-issues/issues/160) | 160
 
 ## Globals
 
@@ -57,6 +59,7 @@ Description | Issue #
 [Image captions](https://github.com/mhulse/css-issues/issues/170) | 170
 [Remove outline from a linked image](https://github.com/mhulse/css-issues/issues/168) | 168
 [Responsive images](https://github.com/mhulse/css-issues/issues/167) | 167
+[Aliased images](https://github.com/mhulse/css-issues/issues/161) | 161
 
 ## Layout
 
@@ -65,6 +68,9 @@ Description | Issue #
 [Two column layout with flexbox enhancement](https://github.com/mhulse/css-issues/issues/181) | 181
 [Input with button on same line, no widths](https://github.com/mhulse/css-issues/issues/174) | 174
 [Align image right, left and center](https://github.com/mhulse/css-issues/issues/169) | 169
+[Calc columns](https://github.com/mhulse/css-issues/issues/158) | 158
+[Text on left, middle and right, same line](https://github.com/mhulse/css-issues/issues/157) | 157
+[Source order, primary column/content first](https://github.com/mhulse/css-issues/issues/156) | 156
 [Centering absolutely](https://github.com/mhulse/css-issues/issues/155) | 155
 [Something on left, something on right, fluid](https://github.com/mhulse/css-issues/issues/154) | 154
 [Better box model](https://github.com/mhulse/css-issues/issues/143) | 143
@@ -90,6 +96,13 @@ Description | Issue #
 [Image captions](https://github.com/mhulse/css-issues/issues/170) | 170
 [Align image right, left and center](https://github.com/mhulse/css-issues/issues/169) | 169
 
+## Print
+
+Description | Issue #
+:-- | :--
+[Grayscale printing](https://github.com/mhulse/css-issues/issues/163) | 163
+[Exact color printing](https://github.com/mhulse/css-issues/issues/162) | 162
+
 ## Responsive
 
 Description | Issue #
@@ -109,6 +122,7 @@ Description | Issue #
 Description | Issue #
 :-- | :--
 [Css circle](https://github.com/mhulse/css-issues/issues/23) | 23
+[hand](https://github.com/mhulse/css-issues/issues/20) | 20
 
 ## Typography
 
@@ -121,14 +135,7 @@ Description | Issue #
 Description | Issue #
 :-- | :--
 [Disable iOS callout on click](https://github.com/mhulse/css-issues/issues/164) | 164
-[Grayscale printing](https://github.com/mhulse/css-issues/issues/163) | 163
-[Exact color printing](https://github.com/mhulse/css-issues/issues/162) | 162
-[Aliased images](https://github.com/mhulse/css-issues/issues/161) | 161
-[Search box](https://github.com/mhulse/css-issues/issues/160) | 160
 [Horizontal rules](https://github.com/mhulse/css-issues/issues/159) | 159
-[Calc columns](https://github.com/mhulse/css-issues/issues/158) | 158
-[Text on left, middle and right, same line](https://github.com/mhulse/css-issues/issues/157) | 157
-[Source order, primary column/content first](https://github.com/mhulse/css-issues/issues/156) | 156
 [Simple two-column float, fixed left sidebar](https://github.com/mhulse/css-issues/issues/153) | 153
 [Blockquote using FontAwesome](https://github.com/mhulse/css-issues/issues/152) | 152
 [Logo background image](https://github.com/mhulse/css-issues/issues/151) | 151
@@ -226,7 +233,6 @@ Description | Issue #
 [Bold hover](https://github.com/mhulse/css-issues/issues/24) | 24
 [When to rem/em](https://github.com/mhulse/css-issues/issues/22) | 22
 [Bootstrap 4 font stack](https://github.com/mhulse/css-issues/issues/21) | 21
-[hand](https://github.com/mhulse/css-issues/issues/20) | 20
 [Simple flexbox column layout with margins inbetween](https://github.com/mhulse/css-issues/issues/18) | 18
 [More media stuffs](https://github.com/mhulse/css-issues/issues/17) | 17
 [Fixed column](https://github.com/mhulse/css-issues/issues/16) | 16
