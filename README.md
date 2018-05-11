@@ -21,6 +21,12 @@ Tip | Issue #
 --- | ---
 [Font Awesome icons](https://github.com/mhulse/css-issues/issues/165) | 165
 
+## Flexbox
+
+Tip | Issue #
+--- | ---
+[Two column layout with flexbox enhancement](https://github.com/mhulse/css-issues/issues/181) | 181
+
 ## Font Awesome
 
 Tip | Issue #
@@ -39,6 +45,7 @@ Tip | Issue #
 Tip | Issue #
 --- | ---
 [Better box model](https://github.com/mhulse/css-issues/issues/143) | 143
+[Overflow html/body auto](https://github.com/mhulse/css-issues/issues/83) | 83
 
 ## Images
 
@@ -53,8 +60,11 @@ Tip | Issue #
 
 Tip | Issue #
 --- | ---
+[Two column layout with flexbox enhancement](https://github.com/mhulse/css-issues/issues/181) | 181
 [Input with button on same line, no widths](https://github.com/mhulse/css-issues/issues/174) | 174
 [Align image right, left and center](https://github.com/mhulse/css-issues/issues/169) | 169
+[Centering absolutely](https://github.com/mhulse/css-issues/issues/155) | 155
+[Something on left, something on right, fluid](https://github.com/mhulse/css-issues/issues/154) | 154
 [Better box model](https://github.com/mhulse/css-issues/issues/143) | 143
 
 ## Links
@@ -82,7 +92,9 @@ Tip | Issue #
 
 Tip | Issue #
 --- | ---
+[Two column layout with flexbox enhancement](https://github.com/mhulse/css-issues/issues/181) | 181
 [Responsive images](https://github.com/mhulse/css-issues/issues/167) | 167
+[Overflow html/body auto](https://github.com/mhulse/css-issues/issues/83) | 83
 
 ## Tables
 
@@ -109,8 +121,6 @@ Tip | Issue #
 [Calc columns](https://github.com/mhulse/css-issues/issues/158) | 158
 [Text on left, middle and right, same line](https://github.com/mhulse/css-issues/issues/157) | 157
 [Source order, primary column/content first](https://github.com/mhulse/css-issues/issues/156) | 156
-[Centering absolutely](https://github.com/mhulse/css-issues/issues/155) | 155
-[Something on left, something on right, fluid](https://github.com/mhulse/css-issues/issues/154) | 154
 [Simple two-column float, fixed left sidebar](https://github.com/mhulse/css-issues/issues/153) | 153
 [Blockquote using FontAwesome](https://github.com/mhulse/css-issues/issues/152) | 152
 [Logo background image](https://github.com/mhulse/css-issues/issues/151) | 151
@@ -123,7 +133,6 @@ Tip | Issue #
 [Clearing floats](https://github.com/mhulse/css-issues/issues/144) | 144
 [Multi-line padded text](https://github.com/mhulse/css-issues/issues/142) | 142
 [Hide semantically “untitled” empty headings](https://github.com/mhulse/css-issues/issues/141) | 141
-[Overflow and scroll](https://github.com/mhulse/css-issues/issues/139) | 139
 [Full page body and html](https://github.com/mhulse/css-issues/issues/138) | 138
 [Font stacks](https://github.com/mhulse/css-issues/issues/137) | 137
 [BootStrap 3 semantic/contextual colors](https://github.com/mhulse/css-issues/issues/136) | 136
@@ -170,7 +179,6 @@ Tip | Issue #
 [Flexbox lines centered content](https://github.com/mhulse/css-issues/issues/86) | 86
 [Unselectable](https://github.com/mhulse/css-issues/issues/85) | 85
 [box shadow underline](https://github.com/mhulse/css-issues/issues/84) | 84
-[Overflow html/body auto](https://github.com/mhulse/css-issues/issues/83) | 83
 [Curly quotes](https://github.com/mhulse/css-issues/issues/82) | 82
 [Selection missing the "a" in "rgba"](https://github.com/mhulse/css-issues/issues/81) | 81
 [Pointer events ](https://github.com/mhulse/css-issues/issues/80) | 80
