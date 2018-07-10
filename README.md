@@ -23,6 +23,7 @@ Description | Issue #
 :-- | :--
 [Input with button on same line, no widths](https://github.com/mhulse/css-issues/issues/174) | 174
 [Font Awesome icons](https://github.com/mhulse/css-issues/issues/165) | 165
+[Logo background image](https://github.com/mhulse/css-issues/issues/151) | 151
 [Cool Button](https://github.com/mhulse/css-issues/issues/124) | 124
 [Bootstrap close button](https://github.com/mhulse/css-issues/issues/59) | 59
 [Title or button with line behind it in center](https://github.com/mhulse/css-issues/issues/56) | 56
@@ -66,6 +67,7 @@ Description | Issue #
 [Remove outline from a linked image](https://github.com/mhulse/css-issues/issues/168) | 168
 [Responsive images](https://github.com/mhulse/css-issues/issues/167) | 167
 [Aliased images](https://github.com/mhulse/css-issues/issues/161) | 161
+[Logo background image](https://github.com/mhulse/css-issues/issues/151) | 151
 
 ## Layout
 
@@ -79,6 +81,8 @@ Description | Issue #
 [Source order, primary column/content first](https://github.com/mhulse/css-issues/issues/156) | 156
 [Centering absolutely](https://github.com/mhulse/css-issues/issues/155) | 155
 [Something on left, something on right, fluid](https://github.com/mhulse/css-issues/issues/154) | 154
+[Simple two-column float, fixed left sidebar](https://github.com/mhulse/css-issues/issues/153) | 153
+[Clearing floats](https://github.com/mhulse/css-issues/issues/144) | 144
 [Better box model](https://github.com/mhulse/css-issues/issues/143) | 143
 
 ## Links
@@ -86,6 +90,7 @@ Description | Issue #
 Description | Issue #
 :-- | :--
 [Remove outline from a linked image](https://github.com/mhulse/css-issues/issues/168) | 168
+[Remove link outline](https://github.com/mhulse/css-issues/issues/146) | 146
 [Links](https://github.com/mhulse/css-issues/issues/140) | 140
 
 ## Lists
@@ -101,6 +106,7 @@ Description | Issue #
 [Proportional scaling image element](https://github.com/mhulse/css-issues/issues/176) | 176
 [Image captions](https://github.com/mhulse/css-issues/issues/170) | 170
 [Align image right, left and center](https://github.com/mhulse/css-issues/issues/169) | 169
+[Responsive media wrapper](https://github.com/mhulse/css-issues/issues/150) | 150
 [Play button image](https://github.com/mhulse/css-issues/issues/52) | 52
 
 ## Print
@@ -116,6 +122,8 @@ Description | Issue #
 :-- | :--
 [Two column layout with flexbox enhancement](https://github.com/mhulse/css-issues/issues/181) | 181
 [Responsive images](https://github.com/mhulse/css-issues/issues/167) | 167
+[Responsive media wrapper](https://github.com/mhulse/css-issues/issues/150) | 150
+[Responsive scrolling box](https://github.com/mhulse/css-issues/issues/149) | 149
 [Overflow html/body auto](https://github.com/mhulse/css-issues/issues/83) | 83
 
 ## Tables
@@ -136,7 +144,18 @@ Description | Issue #
 Description | Issue #
 :-- | :--
 [Multi-line padded text](https://github.com/mhulse/css-issues/issues/166) | 166
+[Stop words from breaking out of containers](https://github.com/mhulse/css-issues/issues/148) | 148
 [Title or button with line behind it in center](https://github.com/mhulse/css-issues/issues/56) | 56
+
+## Utility
+
+Description | Issue #
+:-- | :--
+[Responsive scrolling box](https://github.com/mhulse/css-issues/issues/149) | 149
+[Fix margin collapse](https://github.com/mhulse/css-issues/issues/147) | 147
+[Remove link outline](https://github.com/mhulse/css-issues/issues/146) | 146
+[Hide an element](https://github.com/mhulse/css-issues/issues/145) | 145
+[Clearing floats](https://github.com/mhulse/css-issues/issues/144) | 144
 
 ## Uncategorized
 
@@ -144,16 +163,7 @@ Description | Issue #
 :-- | :--
 [Disable iOS callout on click](https://github.com/mhulse/css-issues/issues/164) | 164
 [Horizontal rules](https://github.com/mhulse/css-issues/issues/159) | 159
-[Simple two-column float, fixed left sidebar](https://github.com/mhulse/css-issues/issues/153) | 153
 [Blockquote using FontAwesome](https://github.com/mhulse/css-issues/issues/152) | 152
-[Logo background image](https://github.com/mhulse/css-issues/issues/151) | 151
-[Responsive media wrapper](https://github.com/mhulse/css-issues/issues/150) | 150
-[Responsive scrolling box](https://github.com/mhulse/css-issues/issues/149) | 149
-[Stop words from breaking out of containers](https://github.com/mhulse/css-issues/issues/148) | 148
-[Fix margin collapse](https://github.com/mhulse/css-issues/issues/147) | 147
-[Remove link outline](https://github.com/mhulse/css-issues/issues/146) | 146
-[Hide an element](https://github.com/mhulse/css-issues/issues/145) | 145
-[Clearing floats](https://github.com/mhulse/css-issues/issues/144) | 144
 [Multi-line padded text](https://github.com/mhulse/css-issues/issues/142) | 142
 [Hide semantically “untitled” empty headings](https://github.com/mhulse/css-issues/issues/141) | 141
 [Full page body and html](https://github.com/mhulse/css-issues/issues/138) | 138
