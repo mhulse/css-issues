@@ -21,7 +21,13 @@ Description | Issue #
 
 Description | Issue #
 :-- | :--
+[Input with button on same line, no widths](https://github.com/mhulse/css-issues/issues/174) | 174
 [Font Awesome icons](https://github.com/mhulse/css-issues/issues/165) | 165
+[Cool Button](https://github.com/mhulse/css-issues/issues/124) | 124
+[Bootstrap close button](https://github.com/mhulse/css-issues/issues/59) | 59
+[Title or button with line behind it in center](https://github.com/mhulse/css-issues/issues/56) | 56
+[Play button image](https://github.com/mhulse/css-issues/issues/52) | 52
+[Button class](https://github.com/mhulse/css-issues/issues/40) | 40
 [hand](https://github.com/mhulse/css-issues/issues/20) | 20
 
 ## Flexbox
@@ -95,6 +101,7 @@ Description | Issue #
 [Proportional scaling image element](https://github.com/mhulse/css-issues/issues/176) | 176
 [Image captions](https://github.com/mhulse/css-issues/issues/170) | 170
 [Align image right, left and center](https://github.com/mhulse/css-issues/issues/169) | 169
+[Play button image](https://github.com/mhulse/css-issues/issues/52) | 52
 
 ## Print
 
@@ -129,6 +136,7 @@ Description | Issue #
 Description | Issue #
 :-- | :--
 [Multi-line padded text](https://github.com/mhulse/css-issues/issues/166) | 166
+[Title or button with line behind it in center](https://github.com/mhulse/css-issues/issues/56) | 56
 
 ## Uncategorized
 
@@ -161,7 +169,6 @@ Description | Issue #
 [Disable clicks and make look inactive](https://github.com/mhulse/css-issues/issues/127) | 127
 [Gradient text](https://github.com/mhulse/css-issues/issues/126) | 126
 [Bootstrap3 showing/hiding utils](https://github.com/mhulse/css-issues/issues/125) | 125
-[Cool Button](https://github.com/mhulse/css-issues/issues/124) | 124
 [JS/css breakpoint mingle](https://github.com/mhulse/css-issues/issues/123) | 123
 [Fix gaps between inline-block children without changing markup](https://github.com/mhulse/css-issues/issues/122) | 122
 [Another flexbox layout (login landing page)](https://github.com/mhulse/css-issues/issues/119) | 119
@@ -212,19 +219,15 @@ Description | Issue #
 [Breadcrumb examps](https://github.com/mhulse/css-issues/issues/63) | 63
 [Good example of fixed sidebar + fluid column with sidebar pulled left or right](https://github.com/mhulse/css-issues/issues/62) | 62
 [Pull left and right](https://github.com/mhulse/css-issues/issues/60) | 60
-[Bootstrap close button](https://github.com/mhulse/css-issues/issues/59) | 59
 [waffle grid thingy](https://github.com/mhulse/css-issues/issues/58) | 58
-[Title or button with line behind it in center](https://github.com/mhulse/css-issues/issues/56) | 56
 [Blockquote style](https://github.com/mhulse/css-issues/issues/55) | 55
 [Modal background cover](https://github.com/mhulse/css-issues/issues/54) | 54
 [New MM](https://github.com/mhulse/css-issues/issues/53) | 53
-[Play button image](https://github.com/mhulse/css-issues/issues/52) | 52
 [Lists](https://github.com/mhulse/css-issues/issues/50) | 50
 [Forms](https://github.com/mhulse/css-issues/issues/49) | 49
 [Viewport and calc](https://github.com/mhulse/css-issues/issues/48) | 48
 [Animated box shadow](https://github.com/mhulse/css-issues/issues/47) | 47
 [Non-scrollable body when modal or slide nav are open](https://github.com/mhulse/css-issues/issues/46) | 46
-[Button class](https://github.com/mhulse/css-issues/issues/40) | 40
 [Selection](https://github.com/mhulse/css-issues/issues/35) | 35
 [Hero gradient overlay](https://github.com/mhulse/css-issues/issues/34) | 34
 [Top/bottom inset borders](https://github.com/mhulse/css-issues/issues/27) | 27

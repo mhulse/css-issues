@@ -7,7 +7,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-      "start": "node ."
+    "start": "node ."
   },
   "dependencies": {
     "@octokit/rest": "^15.2.6",
