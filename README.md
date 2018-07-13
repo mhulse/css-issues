@@ -31,6 +31,12 @@ Description | Issue #
 [Button class](https://github.com/mhulse/css-issues/issues/40) | 40
 [hand](https://github.com/mhulse/css-issues/issues/20) | 20
 
+## Colors
+
+Description | Issue #
+:-- | :--
+[BootStrap 3 semantic/contextual colors](https://github.com/mhulse/css-issues/issues/136) | 136
+
 ## Flexbox
 
 Description | Issue #
@@ -42,6 +48,7 @@ Description | Issue #
 Description | Issue #
 :-- | :--
 [Font Awesome icons](https://github.com/mhulse/css-issues/issues/165) | 165
+[Blockquote using FontAwesome](https://github.com/mhulse/css-issues/issues/152) | 152
 
 ## Forms
 
@@ -50,13 +57,17 @@ Description | Issue #
 [Text area that grows as you type](https://github.com/mhulse/css-issues/issues/179) | 179
 [Input with button on same line, no widths](https://github.com/mhulse/css-issues/issues/174) | 174
 [Search box](https://github.com/mhulse/css-issues/issues/160) | 160
+[Forms](https://github.com/mhulse/css-issues/issues/49) | 49
 
 ## Globals
 
 Description | Issue #
 :-- | :--
 [Better box model](https://github.com/mhulse/css-issues/issues/143) | 143
+[Hide semantically “untitled” empty headings](https://github.com/mhulse/css-issues/issues/141) | 141
+[Full page body and html](https://github.com/mhulse/css-issues/issues/138) | 138
 [Overflow html/body auto](https://github.com/mhulse/css-issues/issues/83) | 83
+[.h1 - .h6](https://github.com/mhulse/css-issues/issues/4) | 4
 
 ## Images
 
@@ -84,12 +95,15 @@ Description | Issue #
 [Simple two-column float, fixed left sidebar](https://github.com/mhulse/css-issues/issues/153) | 153
 [Clearing floats](https://github.com/mhulse/css-issues/issues/144) | 144
 [Better box model](https://github.com/mhulse/css-issues/issues/143) | 143
+[Full page body and html](https://github.com/mhulse/css-issues/issues/138) | 138
+[Sticky footer layout for IE9+ and modern browsers](https://github.com/mhulse/css-issues/issues/132) | 132
 
 ## Links
 
 Description | Issue #
 :-- | :--
 [Remove outline from a linked image](https://github.com/mhulse/css-issues/issues/168) | 168
+[Disable iOS callout on click](https://github.com/mhulse/css-issues/issues/164) | 164
 [Remove link outline](https://github.com/mhulse/css-issues/issues/146) | 146
 [Links](https://github.com/mhulse/css-issues/issues/140) | 140
 
@@ -107,6 +121,7 @@ Description | Issue #
 [Image captions](https://github.com/mhulse/css-issues/issues/170) | 170
 [Align image right, left and center](https://github.com/mhulse/css-issues/issues/169) | 169
 [Responsive media wrapper](https://github.com/mhulse/css-issues/issues/150) | 150
+[Background video](https://github.com/mhulse/css-issues/issues/131) | 131
 [Play button image](https://github.com/mhulse/css-issues/issues/52) | 52
 
 ## Print
@@ -115,6 +130,7 @@ Description | Issue #
 :-- | :--
 [Grayscale printing](https://github.com/mhulse/css-issues/issues/163) | 163
 [Exact color printing](https://github.com/mhulse/css-issues/issues/162) | 162
+[Printing even more exact](https://github.com/mhulse/css-issues/issues/133) | 133
 
 ## Responsive
 
@@ -136,6 +152,7 @@ Description | Issue #
 
 Description | Issue #
 :-- | :--
+[Attribute Selectors](https://github.com/mhulse/css-issues/issues/135) | 135
 [Css circle](https://github.com/mhulse/css-issues/issues/23) | 23
 [hand](https://github.com/mhulse/css-issues/issues/20) | 20
 
@@ -144,8 +161,13 @@ Description | Issue #
 Description | Issue #
 :-- | :--
 [Multi-line padded text](https://github.com/mhulse/css-issues/issues/166) | 166
+[Blockquote using FontAwesome](https://github.com/mhulse/css-issues/issues/152) | 152
 [Stop words from breaking out of containers](https://github.com/mhulse/css-issues/issues/148) | 148
+[Multi-line padded text](https://github.com/mhulse/css-issues/issues/142) | 142
+[Hide semantically “untitled” empty headings](https://github.com/mhulse/css-issues/issues/141) | 141
+[Font stacks](https://github.com/mhulse/css-issues/issues/137) | 137
 [Title or button with line behind it in center](https://github.com/mhulse/css-issues/issues/56) | 56
+[.h1 - .h6](https://github.com/mhulse/css-issues/issues/4) | 4
 
 ## Utility
 
@@ -157,22 +179,17 @@ Description | Issue #
 [Hide an element](https://github.com/mhulse/css-issues/issues/145) | 145
 [Clearing floats](https://github.com/mhulse/css-issues/issues/144) | 144
 
-## Uncategorized
+## iOS
 
 Description | Issue #
 :-- | :--
 [Disable iOS callout on click](https://github.com/mhulse/css-issues/issues/164) | 164
+
+## Uncategorized
+
+Description | Issue #
+:-- | :--
 [Horizontal rules](https://github.com/mhulse/css-issues/issues/159) | 159
-[Blockquote using FontAwesome](https://github.com/mhulse/css-issues/issues/152) | 152
-[Multi-line padded text](https://github.com/mhulse/css-issues/issues/142) | 142
-[Hide semantically “untitled” empty headings](https://github.com/mhulse/css-issues/issues/141) | 141
-[Full page body and html](https://github.com/mhulse/css-issues/issues/138) | 138
-[Font stacks](https://github.com/mhulse/css-issues/issues/137) | 137
-[BootStrap 3 semantic/contextual colors](https://github.com/mhulse/css-issues/issues/136) | 136
-[Attribute Selectors](https://github.com/mhulse/css-issues/issues/135) | 135
-[Printing even more exact](https://github.com/mhulse/css-issues/issues/133) | 133
-[Sticky footer layout for IE9+ and modern browsers](https://github.com/mhulse/css-issues/issues/132) | 132
-[Background video](https://github.com/mhulse/css-issues/issues/131) | 131
 [Justified left CSS text](https://github.com/mhulse/css-issues/issues/130) | 130
 [Highlight outline text with no shift](https://github.com/mhulse/css-issues/issues/129) | 129
 [Kill](https://github.com/mhulse/css-issues/issues/128) | 128
@@ -234,7 +251,6 @@ Description | Issue #
 [Modal background cover](https://github.com/mhulse/css-issues/issues/54) | 54
 [New MM](https://github.com/mhulse/css-issues/issues/53) | 53
 [Lists](https://github.com/mhulse/css-issues/issues/50) | 50
-[Forms](https://github.com/mhulse/css-issues/issues/49) | 49
 [Viewport and calc](https://github.com/mhulse/css-issues/issues/48) | 48
 [Animated box shadow](https://github.com/mhulse/css-issues/issues/47) | 47
 [Non-scrollable body when modal or slide nav are open](https://github.com/mhulse/css-issues/issues/46) | 46
@@ -254,4 +270,3 @@ Description | Issue #
 [adjacent sibiling combinator](https://github.com/mhulse/css-issues/issues/9) | 9
 [Margins on first and last](https://github.com/mhulse/css-issues/issues/8) | 8
 [Baseline grid css](https://github.com/mhulse/css-issues/issues/5) | 5
-[.h1 - .h6](https://github.com/mhulse/css-issues/issues/4) | 4
