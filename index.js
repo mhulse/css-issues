@@ -57,16 +57,29 @@ getIssues([
         let issues_sorted_copy = JSON.parse(JSON.stringify(issues_sorted)); // Deep copy.
         let output = '';
         let issues_found = [];
+        let toc_jump = '[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)';
 
-        output += `# ${package.title}\n`
+        output += `# ${package.title}\n`;
 
-        output += `\n**${package.description}**\n`
+        output += `\n**${package.description}**\n`;
+
+        output += `\n## Table of contents\n`;
 
         Object.keys(issues_sorted).forEach(issue => {
 
             if (issue != 'README') {
 
-                output += ('\n\n## ' + issue);
+                output += `- [${issue}](#${issue.replace(/\s+/g, '-').toLowerCase()})\n`;
+
+            }
+
+        });
+
+        Object.keys(issues_sorted).forEach(issue => {
+
+            if (issue != 'README') {
+
+                output += (`\n\n## ${issue} ${toc_jump}`);
 
                 output += ('\n\n' + 'Description | Issue #\n:-- | :--');
 
@@ -85,7 +98,7 @@ getIssues([
 
         });
 
-        output += ('\n\n## Uncategorized');
+        output += ('\n\n## Uncategorized' + toc_jump);
 
         output += ('\n\n' + 'Description | Issue #\n:-- | :--');
 
