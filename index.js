@@ -21,7 +21,7 @@ if (config.password) {
 async function getIssues(labels = []) {
     let response = await octokit.issues.getForRepo({
         owner: 'mhulse',
-        repo: 'pragmatic-css',
+        repo: 'css-issues',
         // milestone,
         state: 'open',
         // assignee,
