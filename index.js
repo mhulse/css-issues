@@ -79,9 +79,9 @@ getIssues([
 
             if (issue != 'README') {
 
-                output += (`\n\n## ${issue} ${toc_jump}`);
+                output += (`\n\n## ${issue}&nbsp;${toc_jump}`);
 
-                output += ('\n\n' + 'Description | Issue #\n:-- | :--');
+                output += (`\n\nDescription | Issue #\n:-- | :--`);
 
                 Object.keys(issues_sorted[issue]).forEach(issues_key => {
 
@@ -98,9 +98,9 @@ getIssues([
 
         });
 
-        output += ('\n\n## Uncategorized' + toc_jump);
+        output += (`\n\n## Uncategorized&nbsp;${toc_jump}`);
 
-        output += ('\n\n' + 'Description | Issue #\n:-- | :--');
+        output += (`\n\n Description | Issue #\n:-- | :--`);
 
         Object.keys(issues_sorted_copy['README']).forEach(issues_key => {
 
