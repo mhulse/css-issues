@@ -3,20 +3,24 @@
 **Practical CSS code snippets and examples.**
 
 ## Table of contents
+- [Bootstrap](#bootstrap)
 - [Borders](#borders)
 - [Boxes](#boxes)
 - [Buttons](#buttons)
 - [Colors](#colors)
+- [Effects](#effects)
 - [Flexbox](#flexbox)
 - [Font Awesome](#font-awesome)
 - [Forms](#forms)
 - [Globals](#globals)
 - [Images](#images)
+- [JavaScript](#javascript)
 - [Layout](#layout)
 - [Links](#links)
 - [Lists](#lists)
 - [Media](#media)
 - [Print](#print)
+- [Research](#research)
 - [Responsive](#responsive)
 - [Tables](#tables)
 - [Tricks](#tricks)
@@ -24,6 +28,13 @@
 - [Utility](#utility)
 - [iOS](#ios)
 
+
+## Bootstrap&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+
+Description | Issue #
+:-- | :--
+[Bootstrap3 showing/hiding utils](https://github.com/mhulse/css-issues/issues/125) | 125
+[Bootstap 4 contextual colors](https://github.com/mhulse/css-issues/issues/114) | 114
 
 ## Borders&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
@@ -37,6 +48,7 @@ Description | Issue #
 Description | Issue #
 :-- | :--
 [Multiple-border box](https://github.com/mhulse/css-issues/issues/177) | 177
+[Fix gaps between inline-block children without changing markup](https://github.com/mhulse/css-issues/issues/122) | 122
 [Css circle](https://github.com/mhulse/css-issues/issues/23) | 23
 
 ## Buttons&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
@@ -51,13 +63,22 @@ Description | Issue #
 [Title or button with line behind it in center](https://github.com/mhulse/css-issues/issues/56) | 56
 [Play button image](https://github.com/mhulse/css-issues/issues/52) | 52
 [Button class](https://github.com/mhulse/css-issues/issues/40) | 40
-[hand](https://github.com/mhulse/css-issues/issues/20) | 20
+[Hand pointer](https://github.com/mhulse/css-issues/issues/20) | 20
 
 ## Colors&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
 [BootStrap 3 semantic/contextual colors](https://github.com/mhulse/css-issues/issues/136) | 136
+[Bootstap 4 contextual colors](https://github.com/mhulse/css-issues/issues/114) | 114
+
+## Effects&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+
+Description | Issue #
+:-- | :--
+[Highlight outline text with no shift](https://github.com/mhulse/css-issues/issues/129) | 129
+[Gradient text](https://github.com/mhulse/css-issues/issues/126) | 126
+[Funky ass animated link hover underline shit](https://github.com/mhulse/css-issues/issues/110) | 110
 
 ## Flexbox&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
@@ -65,13 +86,16 @@ Description | Issue #
 :-- | :--
 [Flexbox full page body and html with sticky header and footer](https://github.com/mhulse/css-issues/issues/183) | 183
 [Two column layout with flexbox enhancement](https://github.com/mhulse/css-issues/issues/181) | 181
+[Another flexbox layout (login landing page)](https://github.com/mhulse/css-issues/issues/119) | 119
+[Flexbox sticky footer](https://github.com/mhulse/css-issues/issues/112) | 112
 
 ## Font Awesome&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
 [Font Awesome icons](https://github.com/mhulse/css-issues/issues/165) | 165
-[Blockquote using FontAwesome](https://github.com/mhulse/css-issues/issues/152) | 152
+[Blockquotes using FontAwesome](https://github.com/mhulse/css-issues/issues/152) | 152
+[Font Awesome checkbox and radios](https://github.com/mhulse/css-issues/issues/109) | 109
 
 ## Forms&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
@@ -80,6 +104,8 @@ Description | Issue #
 [Text area that grows as you type](https://github.com/mhulse/css-issues/issues/179) | 179
 [Input with button on same line, no widths](https://github.com/mhulse/css-issues/issues/174) | 174
 [Search box](https://github.com/mhulse/css-issues/issues/160) | 160
+[Custom select box](https://github.com/mhulse/css-issues/issues/116) | 116
+[Font Awesome checkbox and radios](https://github.com/mhulse/css-issues/issues/109) | 109
 [Forms](https://github.com/mhulse/css-issues/issues/49) | 49
 
 ## Globals&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
@@ -103,6 +129,12 @@ Description | Issue #
 [Aliased images](https://github.com/mhulse/css-issues/issues/161) | 161
 [Logo background image](https://github.com/mhulse/css-issues/issues/151) | 151
 
+## JavaScript&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+
+Description | Issue #
+:-- | :--
+[JS/css breakpoint mingle](https://github.com/mhulse/css-issues/issues/123) | 123
+
 ## Layout&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
@@ -121,6 +153,9 @@ Description | Issue #
 [Better box model](https://github.com/mhulse/css-issues/issues/143) | 143
 [Full page body and html](https://github.com/mhulse/css-issues/issues/138) | 138
 [Sticky footer layout for IE9+ and modern browsers](https://github.com/mhulse/css-issues/issues/132) | 132
+[Fix gaps between inline-block children without changing markup](https://github.com/mhulse/css-issues/issues/122) | 122
+[Another flexbox layout (login landing page)](https://github.com/mhulse/css-issues/issues/119) | 119
+[Flexbox sticky footer](https://github.com/mhulse/css-issues/issues/112) | 112
 
 ## Links&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
@@ -130,12 +165,14 @@ Description | Issue #
 [Disable iOS callout on click](https://github.com/mhulse/css-issues/issues/164) | 164
 [Remove link outline](https://github.com/mhulse/css-issues/issues/146) | 146
 [Links](https://github.com/mhulse/css-issues/issues/140) | 140
+[Funky ass animated link hover underline shit](https://github.com/mhulse/css-issues/issues/110) | 110
 
 ## Lists&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
 [Custom list counter](https://github.com/mhulse/css-issues/issues/178) | 178
+[Custom list counter](https://github.com/mhulse/css-issues/issues/115) | 115
 
 ## Media&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
@@ -156,6 +193,12 @@ Description | Issue #
 [Exact color printing](https://github.com/mhulse/css-issues/issues/162) | 162
 [Printing even more exact](https://github.com/mhulse/css-issues/issues/133) | 133
 
+## Research&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+
+Description | Issue #
+:-- | :--
+[On the topic of units](https://github.com/mhulse/css-issues/issues/117) | 117
+
 ## Responsive&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
@@ -164,6 +207,7 @@ Description | Issue #
 [Responsive images](https://github.com/mhulse/css-issues/issues/167) | 167
 [Responsive media wrapper](https://github.com/mhulse/css-issues/issues/150) | 150
 [Responsive scrolling box](https://github.com/mhulse/css-issues/issues/149) | 149
+[JS/css breakpoint mingle](https://github.com/mhulse/css-issues/issues/123) | 123
 [Overflow html/body auto](https://github.com/mhulse/css-issues/issues/83) | 83
 
 ## Tables&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
@@ -177,19 +221,23 @@ Description | Issue #
 Description | Issue #
 :-- | :--
 [Attribute Selectors](https://github.com/mhulse/css-issues/issues/135) | 135
+[Gradient text](https://github.com/mhulse/css-issues/issues/126) | 126
+[On the topic of units](https://github.com/mhulse/css-issues/issues/117) | 117
 [Css circle](https://github.com/mhulse/css-issues/issues/23) | 23
-[hand](https://github.com/mhulse/css-issues/issues/20) | 20
+[Hand pointer](https://github.com/mhulse/css-issues/issues/20) | 20
 
 ## Typography&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
 [Multi-line padded text](https://github.com/mhulse/css-issues/issues/166) | 166
-[Blockquote using FontAwesome](https://github.com/mhulse/css-issues/issues/152) | 152
+[Blockquotes using FontAwesome](https://github.com/mhulse/css-issues/issues/152) | 152
 [Stop words from breaking out of containers](https://github.com/mhulse/css-issues/issues/148) | 148
 [Multi-line padded text](https://github.com/mhulse/css-issues/issues/142) | 142
 [Hide semantically “untitled” empty headings](https://github.com/mhulse/css-issues/issues/141) | 141
 [Font stacks](https://github.com/mhulse/css-issues/issues/137) | 137
+[Justified left CSS text](https://github.com/mhulse/css-issues/issues/130) | 130
+[Gradient text](https://github.com/mhulse/css-issues/issues/126) | 126
 [Title or button with line behind it in center](https://github.com/mhulse/css-issues/issues/56) | 56
 [.h1 - .h6](https://github.com/mhulse/css-issues/issues/4) | 4
 
@@ -202,6 +250,9 @@ Description | Issue #
 [Remove link outline](https://github.com/mhulse/css-issues/issues/146) | 146
 [Hide an element](https://github.com/mhulse/css-issues/issues/145) | 145
 [Clearing floats](https://github.com/mhulse/css-issues/issues/144) | 144
+[Remove first and last margin from children in container](https://github.com/mhulse/css-issues/issues/128) | 128
+[Bootstrap3 showing/hiding utils](https://github.com/mhulse/css-issues/issues/125) | 125
+[JS/css breakpoint mingle](https://github.com/mhulse/css-issues/issues/123) | 123
 
 ## iOS&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
@@ -214,23 +265,7 @@ Description | Issue #
  Description | Issue #
 :-- | :--
 [Horizontal rules](https://github.com/mhulse/css-issues/issues/159) | 159
-[Justified left CSS text](https://github.com/mhulse/css-issues/issues/130) | 130
-[Highlight outline text with no shift](https://github.com/mhulse/css-issues/issues/129) | 129
-[Kill](https://github.com/mhulse/css-issues/issues/128) | 128
-[Disable clicks and make look inactive](https://github.com/mhulse/css-issues/issues/127) | 127
-[Gradient text](https://github.com/mhulse/css-issues/issues/126) | 126
-[Bootstrap3 showing/hiding utils](https://github.com/mhulse/css-issues/issues/125) | 125
-[JS/css breakpoint mingle](https://github.com/mhulse/css-issues/issues/123) | 123
-[Fix gaps between inline-block children without changing markup](https://github.com/mhulse/css-issues/issues/122) | 122
-[Another flexbox layout (login landing page)](https://github.com/mhulse/css-issues/issues/119) | 119
-[On the topic of units](https://github.com/mhulse/css-issues/issues/117) | 117
-[Custom select box](https://github.com/mhulse/css-issues/issues/116) | 116
-[Custom list counter](https://github.com/mhulse/css-issues/issues/115) | 115
-[Bootstap 4 contextual colors](https://github.com/mhulse/css-issues/issues/114) | 114
 [Horizontal Rules](https://github.com/mhulse/css-issues/issues/113) | 113
-[Flexbox sticky footer](https://github.com/mhulse/css-issues/issues/112) | 112
-[Funky ass animated link hover underline shit](https://github.com/mhulse/css-issues/issues/110) | 110
-[Font Awesome checkbox and radios](https://github.com/mhulse/css-issues/issues/109) | 109
 [CSS columns masonry emulation](https://github.com/mhulse/css-issues/issues/108) | 108
 [Highlight box](https://github.com/mhulse/css-issues/issues/107) | 107
 [Attribute styling rules](https://github.com/mhulse/css-issues/issues/106) | 106
