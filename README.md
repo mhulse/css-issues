@@ -19,10 +19,12 @@
 - [Links](#links)
 - [Lists](#lists)
 - [Media](#media)
+- [Navigation](#navigation)
 - [Print](#print)
 - [Research](#research)
 - [Responsive](#responsive)
 - [Tables](#tables)
+- [Techniques](#techniques)
 - [Tricks](#tricks)
 - [Typography](#typography)
 - [Utility](#utility)
@@ -35,6 +37,7 @@ Description | Issue #
 :-- | :--
 [Bootstrap3 showing/hiding utils](https://github.com/mhulse/css-issues/issues/125) | 125
 [Bootstap 4 contextual colors](https://github.com/mhulse/css-issues/issues/114) | 114
+[Pull left and right](https://github.com/mhulse/css-issues/issues/60) | 60
 [Bootstrap 4 font stack](https://github.com/mhulse/css-issues/issues/21) | 21
 
 ## Borders&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
@@ -81,6 +84,7 @@ Description | Issue #
 [Highlight outline text with no shift](https://github.com/mhulse/css-issues/issues/129) | 129
 [Gradient text](https://github.com/mhulse/css-issues/issues/126) | 126
 [Funky ass animated link hover underline shit](https://github.com/mhulse/css-issues/issues/110) | 110
+[Animated box shadow](https://github.com/mhulse/css-issues/issues/47) | 47
 [Hero gradient overlay](https://github.com/mhulse/css-issues/issues/34) | 34
 [Top/bottom inset borders](https://github.com/mhulse/css-issues/issues/27) | 27
 [Global link transitions](https://github.com/mhulse/css-issues/issues/10) | 10
@@ -135,6 +139,7 @@ Description | Issue #
 [Responsive images](https://github.com/mhulse/css-issues/issues/167) | 167
 [Aliased images](https://github.com/mhulse/css-issues/issues/161) | 161
 [Logo background image](https://github.com/mhulse/css-issues/issues/151) | 151
+[Paralax](https://github.com/mhulse/css-issues/issues/65) | 65
 
 ## JavaScript&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
@@ -163,6 +168,8 @@ Description | Issue #
 [Fix gaps between inline-block children without changing markup](https://github.com/mhulse/css-issues/issues/122) | 122
 [Another flexbox layout (login landing page)](https://github.com/mhulse/css-issues/issues/119) | 119
 [Flexbox sticky footer](https://github.com/mhulse/css-issues/issues/112) | 112
+[waffle grid thingy](https://github.com/mhulse/css-issues/issues/58) | 58
+[Viewport and calc](https://github.com/mhulse/css-issues/issues/48) | 48
 [Hero gradient overlay](https://github.com/mhulse/css-issues/issues/34) | 34
 [Simple flexbox column layout with margins inbetween](https://github.com/mhulse/css-issues/issues/18) | 18
 [Fixed column](https://github.com/mhulse/css-issues/issues/16) | 16
@@ -195,8 +202,15 @@ Description | Issue #
 [Align image right, left and center](https://github.com/mhulse/css-issues/issues/169) | 169
 [Responsive media wrapper](https://github.com/mhulse/css-issues/issues/150) | 150
 [Background video](https://github.com/mhulse/css-issues/issues/131) | 131
+[New MM](https://github.com/mhulse/css-issues/issues/53) | 53
 [Play button image](https://github.com/mhulse/css-issues/issues/52) | 52
 [More media stuffs](https://github.com/mhulse/css-issues/issues/17) | 17
+
+## Navigation&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+
+Description | Issue #
+:-- | :--
+[Breadcrumb examps](https://github.com/mhulse/css-issues/issues/63) | 63
 
 ## Print&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
@@ -231,6 +245,14 @@ Description | Issue #
 :-- | :--
 [Table styles](https://github.com/mhulse/css-issues/issues/72) | 72
 
+## Techniques&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+
+Description | Issue #
+:-- | :--
+[Paralax](https://github.com/mhulse/css-issues/issues/65) | 65
+[Modal background cover](https://github.com/mhulse/css-issues/issues/54) | 54
+[Non-scrollable body when modal or slide nav are open](https://github.com/mhulse/css-issues/issues/46) | 46
+
 ## Tricks&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
@@ -238,6 +260,8 @@ Description | Issue #
 [Attribute Selectors](https://github.com/mhulse/css-issues/issues/135) | 135
 [Gradient text](https://github.com/mhulse/css-issues/issues/126) | 126
 [On the topic of units](https://github.com/mhulse/css-issues/issues/117) | 117
+[Pattern overlays](https://github.com/mhulse/css-issues/issues/66) | 66
+[Animated box shadow](https://github.com/mhulse/css-issues/issues/47) | 47
 [Top/bottom inset borders](https://github.com/mhulse/css-issues/issues/27) | 27
 [Wiffle faux column borders](https://github.com/mhulse/css-issues/issues/26) | 26
 [Css circle](https://github.com/mhulse/css-issues/issues/23) | 23
@@ -256,6 +280,7 @@ Description | Issue #
 [Justified left CSS text](https://github.com/mhulse/css-issues/issues/130) | 130
 [Gradient text](https://github.com/mhulse/css-issues/issues/126) | 126
 [Title or button with line behind it in center](https://github.com/mhulse/css-issues/issues/56) | 56
+[Blockquote style](https://github.com/mhulse/css-issues/issues/55) | 55
 [Font-sizing 62.5% and rems](https://github.com/mhulse/css-issues/issues/25) | 25
 [Bold hover](https://github.com/mhulse/css-issues/issues/24) | 24
 [When to rem/em](https://github.com/mhulse/css-issues/issues/22) | 22
@@ -275,6 +300,7 @@ Description | Issue #
 [Remove first and last margin from children in container](https://github.com/mhulse/css-issues/issues/128) | 128
 [Bootstrap3 showing/hiding utils](https://github.com/mhulse/css-issues/issues/125) | 125
 [JS/css breakpoint mingle](https://github.com/mhulse/css-issues/issues/123) | 123
+[Pull left and right](https://github.com/mhulse/css-issues/issues/60) | 60
 
 ## iOS&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
@@ -322,16 +348,4 @@ Description | Issue #
 [Brand colors](https://github.com/mhulse/css-issues/issues/70) | 70
 [Callout CSS and html](https://github.com/mhulse/css-issues/issues/69) | 69
 [Social icons and shit](https://github.com/mhulse/css-issues/issues/68) | 68
-[Pattern overlays](https://github.com/mhulse/css-issues/issues/66) | 66
-[Paralax](https://github.com/mhulse/css-issues/issues/65) | 65
-[Breadcrumb examps](https://github.com/mhulse/css-issues/issues/63) | 63
-[Good example of fixed sidebar + fluid column with sidebar pulled left or right](https://github.com/mhulse/css-issues/issues/62) | 62
-[Pull left and right](https://github.com/mhulse/css-issues/issues/60) | 60
-[waffle grid thingy](https://github.com/mhulse/css-issues/issues/58) | 58
-[Blockquote style](https://github.com/mhulse/css-issues/issues/55) | 55
-[Modal background cover](https://github.com/mhulse/css-issues/issues/54) | 54
-[New MM](https://github.com/mhulse/css-issues/issues/53) | 53
 [Lists](https://github.com/mhulse/css-issues/issues/50) | 50
-[Viewport and calc](https://github.com/mhulse/css-issues/issues/48) | 48
-[Animated box shadow](https://github.com/mhulse/css-issues/issues/47) | 47
-[Non-scrollable body when modal or slide nav are open](https://github.com/mhulse/css-issues/issues/46) | 46
