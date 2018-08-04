@@ -344,8 +344,3 @@ Description | Issue #
 Description | Issue #
 :-- | :--
 [Disable iOS callout on click](https://github.com/mhulse/css-issues/issues/164) | 164
-
-## Uncategorized&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
-
- Description | Issue #
-:-- | :--

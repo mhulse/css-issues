@@ -58,6 +58,7 @@ getIssues([
         let output = '';
         let issues_found = [];
         let toc_jump = '[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)';
+        let uncategorized = false;
 
         output += `# ${package.title}\n`;
 
@@ -91,22 +92,27 @@ getIssues([
 
                     output += (`\n[${issues_key.title}](${issues_key.html_url}) | ${issues_key.number}`);
 
-
                 });
 
             }
 
         });
 
-        output += (`\n\n## Uncategorized&nbsp;${toc_jump}`);
-
-        output += (`\n\n Description | Issue #\n:-- | :--`);
-
         Object.keys(issues_sorted_copy['README']).forEach(issues_key => {
 
             issues_key = issues_sorted_copy['README'][issues_key];
 
             if ( ! issues_found.includes(issues_key.number)) {
+
+                if ( ! uncategorized) {
+
+                    output += (`\n\n## Uncategorized&nbsp;${toc_jump}`);
+
+                    output += (`\n\n Description | Issue #\n:-- | :--`);
+
+                }
+
+                uncategorized = true;
 
                 output += (`\n[${issues_key.title}](${issues_key.html_url}) | ${issues_key.number}`);
 
