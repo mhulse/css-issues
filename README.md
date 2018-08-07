@@ -221,7 +221,6 @@ Description | Issue #
 Description | Issue #
 :-- | :--
 [Custom list counter](https://github.com/mhulse/css-issues/issues/178) | 178
-[Custom list counter](https://github.com/mhulse/css-issues/issues/115) | 115
 [Default list styles](https://github.com/mhulse/css-issues/issues/73) | 73
 [Lists](https://github.com/mhulse/css-issues/issues/50) | 50
 
