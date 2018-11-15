@@ -42,10 +42,14 @@ Description | Issue #
 
 Description | Issue #
 :-- | :--
+[Bootstrap 4 grid tips](https://github.com/mhulse/css-issues/issues/180) | 180
+[BootStrap 3 semantic/contextual colors](https://github.com/mhulse/css-issues/issues/136) | 136
 [Bootstrap3 showing/hiding utils](https://github.com/mhulse/css-issues/issues/125) | 125
+[JS/css breakpoint mingle](https://github.com/mhulse/css-issues/issues/123) | 123
 [Bootstap 4 contextual colors](https://github.com/mhulse/css-issues/issues/114) | 114
 [Brand colors](https://github.com/mhulse/css-issues/issues/70) | 70
 [Pull left and right](https://github.com/mhulse/css-issues/issues/60) | 60
+[Bootstrap close button](https://github.com/mhulse/css-issues/issues/59) | 59
 [Bootstrap 4 font stack](https://github.com/mhulse/css-issues/issues/21) | 21
 
 ## Borders&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
@@ -175,6 +179,7 @@ Description | Issue #
 :-- | :--
 [Flexbox full page body and html with sticky header and footer](https://github.com/mhulse/css-issues/issues/183) | 183
 [Two column layout with flexbox enhancement](https://github.com/mhulse/css-issues/issues/181) | 181
+[Bootstrap 4 grid tips](https://github.com/mhulse/css-issues/issues/180) | 180
 [Input with button on same line, no widths](https://github.com/mhulse/css-issues/issues/174) | 174
 [Align image right, left and center](https://github.com/mhulse/css-issues/issues/169) | 169
 [Calc columns](https://github.com/mhulse/css-issues/issues/158) | 158
