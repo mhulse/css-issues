@@ -79,7 +79,7 @@ Description | Issue #
 [Title or button with line behind it in center](https://github.com/mhulse/css-issues/issues/56) | 56
 [Play button image](https://github.com/mhulse/css-issues/issues/52) | 52
 [Button class](https://github.com/mhulse/css-issues/issues/40) | 40
-[Hand pointer](https://github.com/mhulse/css-issues/issues/20) | 20
+[Cursor hand pointer](https://github.com/mhulse/css-issues/issues/20) | 20
 
 ## Colors&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
@@ -248,7 +248,7 @@ Description | Issue #
 [Crosshairs with CSS](https://github.com/mhulse/css-issues/issues/96) | 96
 [Non-empty attributes](https://github.com/mhulse/css-issues/issues/90) | 90
 [Ear](https://github.com/mhulse/css-issues/issues/78) | 78
-[Arrows](https://github.com/mhulse/css-issues/issues/77) | 77
+[Arrows/triangles](https://github.com/mhulse/css-issues/issues/77) | 77
 [Pattern overlays](https://github.com/mhulse/css-issues/issues/66) | 66
 [Modal background cover](https://github.com/mhulse/css-issues/issues/54) | 54
 [Animated box shadow](https://github.com/mhulse/css-issues/issues/47) | 47
@@ -256,7 +256,7 @@ Description | Issue #
 [Top/bottom inset borders](https://github.com/mhulse/css-issues/issues/27) | 27
 [Wiffle faux column borders](https://github.com/mhulse/css-issues/issues/26) | 26
 [Css circle](https://github.com/mhulse/css-issues/issues/23) | 23
-[Hand pointer](https://github.com/mhulse/css-issues/issues/20) | 20
+[Cursor hand pointer](https://github.com/mhulse/css-issues/issues/20) | 20
 
 ## Navigation&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
@@ -270,7 +270,6 @@ Description | Issue #
 :-- | :--
 [Grayscale printing](https://github.com/mhulse/css-issues/issues/163) | 163
 [Exact color printing](https://github.com/mhulse/css-issues/issues/162) | 162
-[Printing even more exact](https://github.com/mhulse/css-issues/issues/133) | 133
 
 ## Research&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
