@@ -37,6 +37,7 @@ Description | Issue #
 :-- | :--
 [Animated ellipsis …](https://github.com/mhulse/css-issues/issues/87) | 87
 [Make something blink](https://github.com/mhulse/css-issues/issues/79) | 79
+[Animating things on hover](https://github.com/mhulse/css-issues/issues/28) | 28
 
 ## Bootstrap&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
@@ -75,6 +76,7 @@ Description | Issue #
 
 Description | Issue #
 :-- | :--
+[Hover highlight using background image](https://github.com/mhulse/css-issues/issues/184) | 184
 [Input with button on same line, no widths](https://github.com/mhulse/css-issues/issues/174) | 174
 [Font Awesome icons](https://github.com/mhulse/css-issues/issues/165) | 165
 [Logo background image](https://github.com/mhulse/css-issues/issues/151) | 151
@@ -136,6 +138,7 @@ Description | Issue #
 
 Description | Issue #
 :-- | :--
+[Form radio and checkbox with label text that does not wrap under inputs](https://github.com/mhulse/css-issues/issues/196) | 196
 [Text area that grows as you type](https://github.com/mhulse/css-issues/issues/179) | 179
 [Input with button on same line, no widths](https://github.com/mhulse/css-issues/issues/174) | 174
 [Search box](https://github.com/mhulse/css-issues/issues/160) | 160
@@ -171,12 +174,15 @@ Description | Issue #
 
 Description | Issue #
 :-- | :--
+[Hide/show with .no-js/.js classes](https://github.com/mhulse/css-issues/issues/195) | 195
+[Basic accordion using jQuery](https://github.com/mhulse/css-issues/issues/188) | 188
 [JS/css breakpoint mingle](https://github.com/mhulse/css-issues/issues/123) | 123
 
 ## Layout&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
+[Form radio and checkbox with label text that does not wrap under inputs](https://github.com/mhulse/css-issues/issues/196) | 196
 [Flexbox full page body and html with sticky header and footer](https://github.com/mhulse/css-issues/issues/183) | 183
 [Two column layout with flexbox enhancement](https://github.com/mhulse/css-issues/issues/181) | 181
 [Bootstrap 4 grid tips](https://github.com/mhulse/css-issues/issues/180) | 180
@@ -211,6 +217,8 @@ Description | Issue #
 
 Description | Issue #
 :-- | :--
+[Disable pointer events (mouse click)](https://github.com/mhulse/css-issues/issues/186) | 186
+[Hover highlight using background image](https://github.com/mhulse/css-issues/issues/184) | 184
 [Remove outline from a linked image](https://github.com/mhulse/css-issues/issues/168) | 168
 [Disable iOS callout on click](https://github.com/mhulse/css-issues/issues/164) | 164
 [Remove link outline](https://github.com/mhulse/css-issues/issues/146) | 146
@@ -225,6 +233,7 @@ Description | Issue #
 
 Description | Issue #
 :-- | :--
+[Custom list counter with nested lists](https://github.com/mhulse/css-issues/issues/191) | 191
 [Custom list counter](https://github.com/mhulse/css-issues/issues/178) | 178
 [Default list styles](https://github.com/mhulse/css-issues/issues/73) | 73
 [Lists](https://github.com/mhulse/css-issues/issues/50) | 50
@@ -246,6 +255,7 @@ Description | Issue #
 
 Description | Issue #
 :-- | :--
+[Disable pointer events (mouse click)](https://github.com/mhulse/css-issues/issues/186) | 186
 [Attribute Selectors](https://github.com/mhulse/css-issues/issues/135) | 135
 [Gradient text](https://github.com/mhulse/css-issues/issues/126) | 126
 [On the topic of units](https://github.com/mhulse/css-issues/issues/117) | 117
@@ -267,6 +277,7 @@ Description | Issue #
 
 Description | Issue #
 :-- | :--
+[Basic accordion using jQuery](https://github.com/mhulse/css-issues/issues/188) | 188
 [Breadcrumb examps](https://github.com/mhulse/css-issues/issues/63) | 63
 
 ## Print&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
@@ -282,6 +293,7 @@ Description | Issue #
 :-- | :--
 [On the topic of units](https://github.com/mhulse/css-issues/issues/117) | 117
 [CSS flags](https://github.com/mhulse/css-issues/issues/89) | 89
+[Alternative to normalize](https://github.com/mhulse/css-issues/issues/88) | 88
 [When to rem/em](https://github.com/mhulse/css-issues/issues/22) | 22
 [adjacent sibiling combinator](https://github.com/mhulse/css-issues/issues/9) | 9
 
@@ -300,6 +312,8 @@ Description | Issue #
 
 Description | Issue #
 :-- | :--
+[Table with colored left column](https://github.com/mhulse/css-issues/issues/190) | 190
+[Table column widths](https://github.com/mhulse/css-issues/issues/189) | 189
 [Zebra stripes](https://github.com/mhulse/css-issues/issues/100) | 100
 [Table styles](https://github.com/mhulse/css-issues/issues/72) | 72
 
@@ -330,6 +344,9 @@ Description | Issue #
 
 Description | Issue #
 :-- | :--
+[Hide/show with .no-js/.js classes](https://github.com/mhulse/css-issues/issues/195) | 195
+[CSS debug utility](https://github.com/mhulse/css-issues/issues/187) | 187
+[Disable pointer events (mouse click)](https://github.com/mhulse/css-issues/issues/186) | 186
 [Responsive scrolling box](https://github.com/mhulse/css-issues/issues/149) | 149
 [Fix margin collapse](https://github.com/mhulse/css-issues/issues/147) | 147
 [Remove link outline](https://github.com/mhulse/css-issues/issues/146) | 146
@@ -338,6 +355,7 @@ Description | Issue #
 [Remove first and last margin from children in container](https://github.com/mhulse/css-issues/issues/128) | 128
 [Bootstrap3 showing/hiding utils](https://github.com/mhulse/css-issues/issues/125) | 125
 [JS/css breakpoint mingle](https://github.com/mhulse/css-issues/issues/123) | 123
+[tidy](https://github.com/mhulse/css-issues/issues/101) | 101
 [Disable selection](https://github.com/mhulse/css-issues/issues/97) | 97
 [Ellipsis](https://github.com/mhulse/css-issues/issues/93) | 93
 [Pull left and right](https://github.com/mhulse/css-issues/issues/60) | 60
