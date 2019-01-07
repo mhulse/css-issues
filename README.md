@@ -164,6 +164,7 @@ Description | Issue #
 :-- | :--
 [Proportional scaling image element](https://github.com/mhulse/css-issues/issues/176) | 176
 [Image captions](https://github.com/mhulse/css-issues/issues/170) | 170
+[Align image right, left and center](https://github.com/mhulse/css-issues/issues/169) | 169
 [Remove outline from a linked image](https://github.com/mhulse/css-issues/issues/168) | 168
 [Responsive images](https://github.com/mhulse/css-issues/issues/167) | 167
 [Aliased images](https://github.com/mhulse/css-issues/issues/161) | 161
@@ -312,6 +313,8 @@ Description | Issue #
 
 Description | Issue #
 :-- | :--
+[Tables spacing](https://github.com/mhulse/css-issues/issues/199) | 199
+[Table with alternating colors for rows and columns](https://github.com/mhulse/css-issues/issues/198) | 198
 [Table with colored left column](https://github.com/mhulse/css-issues/issues/190) | 190
 [Table column widths](https://github.com/mhulse/css-issues/issues/189) | 189
 [Zebra stripes](https://github.com/mhulse/css-issues/issues/100) | 100
@@ -344,6 +347,7 @@ Description | Issue #
 
 Description | Issue #
 :-- | :--
+[Hide child element using text-indent](https://github.com/mhulse/css-issues/issues/201) | 201
 [Hide/show with .no-js/.js classes](https://github.com/mhulse/css-issues/issues/195) | 195
 [CSS debug utility](https://github.com/mhulse/css-issues/issues/187) | 187
 [Disable pointer events (mouse click)](https://github.com/mhulse/css-issues/issues/186) | 186
