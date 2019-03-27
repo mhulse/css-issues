@@ -57,7 +57,7 @@ getIssues([
         let issues_sorted_copy = JSON.parse(JSON.stringify(issues_sorted)); // Deep copy.
         let output = '';
         let issues_found = [];
-        let toc_jump = '[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)';
+        let toc_jump = '[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)';
         let uncategorized = false;
 
         output += `# ${package.title}\n`;

@@ -31,7 +31,7 @@
 - [iOS](#ios)
 
 
-## Animation&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Animation&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
@@ -39,7 +39,7 @@ Description | Issue #
 [Make something blink](https://github.com/mhulse/css-issues/issues/79) | 79
 [Animating things on hover](https://github.com/mhulse/css-issues/issues/28) | 28
 
-## Bootstrap&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Bootstrap&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
@@ -53,14 +53,14 @@ Description | Issue #
 [Bootstrap close button](https://github.com/mhulse/css-issues/issues/59) | 59
 [Bootstrap 4 font stack](https://github.com/mhulse/css-issues/issues/21) | 21
 
-## Borders&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Borders&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
 [Multiple-border box](https://github.com/mhulse/css-issues/issues/177) | 177
 [Css circle](https://github.com/mhulse/css-issues/issues/23) | 23
 
-## Boxes&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Boxes&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
@@ -72,7 +72,7 @@ Description | Issue #
 [Hero gradient overlay](https://github.com/mhulse/css-issues/issues/34) | 34
 [Css circle](https://github.com/mhulse/css-issues/issues/23) | 23
 
-## Buttons&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Buttons&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
@@ -87,7 +87,7 @@ Description | Issue #
 [Button class](https://github.com/mhulse/css-issues/issues/40) | 40
 [Cursor hand pointer (finger)](https://github.com/mhulse/css-issues/issues/20) | 20
 
-## Colors&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Colors&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
@@ -95,7 +95,7 @@ Description | Issue #
 [Bootstap 4 contextual colors](https://github.com/mhulse/css-issues/issues/114) | 114
 [Brand colors](https://github.com/mhulse/css-issues/issues/70) | 70
 
-## Effects&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Effects&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
@@ -108,7 +108,7 @@ Description | Issue #
 [Top/bottom inset borders](https://github.com/mhulse/css-issues/issues/27) | 27
 [Global link transitions](https://github.com/mhulse/css-issues/issues/10) | 10
 
-## Flexbox&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Flexbox&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
@@ -124,7 +124,7 @@ Description | Issue #
 [Flex split](https://github.com/mhulse/css-issues/issues/75) | 75
 [Simple flexbox column layout with margins inbetween](https://github.com/mhulse/css-issues/issues/18) | 18
 
-## Font Awesome&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Font Awesome&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
@@ -134,7 +134,7 @@ Description | Issue #
 [Fontawesome Plus and minus for accordion-like headings](https://github.com/mhulse/css-issues/issues/98) | 98
 [Font-awesome svg rounded icon ](https://github.com/mhulse/css-issues/issues/92) | 92
 
-## Forms&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Forms&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
@@ -147,7 +147,7 @@ Description | Issue #
 [Styling placeholder text](https://github.com/mhulse/css-issues/issues/104) | 104
 [Forms](https://github.com/mhulse/css-issues/issues/49) | 49
 
-## Globals&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Globals&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
@@ -158,7 +158,7 @@ Description | Issue #
 [Selection](https://github.com/mhulse/css-issues/issues/35) | 35
 [.h1 - .h6](https://github.com/mhulse/css-issues/issues/4) | 4
 
-## Images&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Images&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
@@ -171,7 +171,7 @@ Description | Issue #
 [Logo background image](https://github.com/mhulse/css-issues/issues/151) | 151
 [Paralax](https://github.com/mhulse/css-issues/issues/65) | 65
 
-## JavaScript&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## JavaScript&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
@@ -179,7 +179,7 @@ Description | Issue #
 [Basic accordion using jQuery](https://github.com/mhulse/css-issues/issues/188) | 188
 [JS/css breakpoint mingle](https://github.com/mhulse/css-issues/issues/123) | 123
 
-## Layout&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Layout&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
@@ -214,7 +214,7 @@ Description | Issue #
 [Simple flexbox column layout with margins inbetween](https://github.com/mhulse/css-issues/issues/18) | 18
 [Fixed column](https://github.com/mhulse/css-issues/issues/16) | 16
 
-## Links&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Links&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
@@ -230,7 +230,7 @@ Description | Issue #
 [Bold hover](https://github.com/mhulse/css-issues/issues/24) | 24
 [Global link transitions](https://github.com/mhulse/css-issues/issues/10) | 10
 
-## Lists&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Lists&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
@@ -239,7 +239,7 @@ Description | Issue #
 [Default list styles](https://github.com/mhulse/css-issues/issues/73) | 73
 [Lists](https://github.com/mhulse/css-issues/issues/50) | 50
 
-## Media&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Media&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
@@ -252,7 +252,7 @@ Description | Issue #
 [Play button image](https://github.com/mhulse/css-issues/issues/52) | 52
 [More media stuffs](https://github.com/mhulse/css-issues/issues/17) | 17
 
-## Miscellaneous&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Miscellaneous&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
@@ -274,21 +274,21 @@ Description | Issue #
 [Css circle](https://github.com/mhulse/css-issues/issues/23) | 23
 [Cursor hand pointer (finger)](https://github.com/mhulse/css-issues/issues/20) | 20
 
-## Navigation&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Navigation&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
 [Basic accordion using jQuery](https://github.com/mhulse/css-issues/issues/188) | 188
 [Breadcrumb examps](https://github.com/mhulse/css-issues/issues/63) | 63
 
-## Print&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Print&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
 [Grayscale printing](https://github.com/mhulse/css-issues/issues/163) | 163
 [Exact color printing](https://github.com/mhulse/css-issues/issues/162) | 162
 
-## Research&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Research&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
@@ -298,7 +298,7 @@ Description | Issue #
 [When to rem/em](https://github.com/mhulse/css-issues/issues/22) | 22
 [adjacent sibiling combinator](https://github.com/mhulse/css-issues/issues/9) | 9
 
-## Responsive&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Responsive&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
@@ -309,7 +309,7 @@ Description | Issue #
 [JS/css breakpoint mingle](https://github.com/mhulse/css-issues/issues/123) | 123
 [Overflow html/body auto](https://github.com/mhulse/css-issues/issues/83) | 83
 
-## Tables&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Tables&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
@@ -320,7 +320,7 @@ Description | Issue #
 [Zebra stripes](https://github.com/mhulse/css-issues/issues/100) | 100
 [Table styles](https://github.com/mhulse/css-issues/issues/72) | 72
 
-## Typography&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Typography&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
@@ -343,7 +343,7 @@ Description | Issue #
 [Baseline grid css](https://github.com/mhulse/css-issues/issues/5) | 5
 [.h1 - .h6](https://github.com/mhulse/css-issues/issues/4) | 4
 
-## Utility&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Utility&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
@@ -364,7 +364,7 @@ Description | Issue #
 [Ellipsis](https://github.com/mhulse/css-issues/issues/93) | 93
 [Pull left and right](https://github.com/mhulse/css-issues/issues/60) | 60
 
-## iOS&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## iOS&nbsp;[<img width="32" height="32" align="right" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Description | Issue #
 :-- | :--
