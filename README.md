@@ -85,7 +85,7 @@ Description | Issue #
 [Title or button with line behind it in center](https://github.com/mhulse/css-issues/issues/56) | 56
 [Play button image](https://github.com/mhulse/css-issues/issues/52) | 52
 [Button class](https://github.com/mhulse/css-issues/issues/40) | 40
-[Cursor hand pointer](https://github.com/mhulse/css-issues/issues/20) | 20
+[Cursor hand pointer (finger)](https://github.com/mhulse/css-issues/issues/20) | 20
 
 ## Colors&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
@@ -272,7 +272,7 @@ Description | Issue #
 [Top/bottom inset borders](https://github.com/mhulse/css-issues/issues/27) | 27
 [Wiffle faux column borders](https://github.com/mhulse/css-issues/issues/26) | 26
 [Css circle](https://github.com/mhulse/css-issues/issues/23) | 23
-[Cursor hand pointer](https://github.com/mhulse/css-issues/issues/20) | 20
+[Cursor hand pointer (finger)](https://github.com/mhulse/css-issues/issues/20) | 20
 
 ## Navigation&nbsp;[<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
